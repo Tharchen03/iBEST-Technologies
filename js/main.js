@@ -138,3 +138,17 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch(error => console.error('Error loading navbar:', error));
 
 });
+
+// Get the current URL path and split it to get the filename
+var path = window.location.pathname;
+var page = path.split("/").pop();
+
+// Find the nav-link with the matching href and add the 'active' class
+var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+navLinks.forEach(function (navLink) {
+    if (navLink.getAttribute('href') === page) {
+        navLink.classList.add('active');
+    }
+});
+console.log("Path:", path);
+console.log("Page:", page);
