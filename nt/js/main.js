@@ -11,10 +11,8 @@
     };
     spinner();
 
-
     // Initiate the wowjs
     new WOW().init();
-
 
     // Sticky Navbar
     $(window).scroll(function () {
@@ -52,13 +50,11 @@
         }
     });
 
-
     // Facts counter
     $('[data-toggle="counter-up"]').counterUp({
         delay: 10,
         time: 2000
     });
-
 
     // Back to top button
     $(window).scroll(function () {
@@ -74,7 +70,6 @@
         }, 1500, 'easeInOutExpo');
         return false;
     });
-
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
@@ -99,13 +94,11 @@
         }
     });
 
-
     // Vendor carousel
     $('.vendor-carousel').owlCarousel({
         loop: true,
         margin: 45,
         dots: false,
-        loop: true,
         autoplay: true,
         smartSpeed: 1000,
         responsive: {
@@ -127,28 +120,38 @@
 })(jQuery);
 
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('layout/navbar.html')
-        .then(response => response.text())
-        .then(data => document.getElementById('navbar').innerHTML = data)
-        .catch(error => console.error('Error loading navbar:', error));
+    Promise.all([
+        fetch('layout/navbar.html').then(response => response.text()).then(data => {
+            document.getElementById('navbar').innerHTML = data;
+        }),
+        fetch('layout/footer.html').then(response => response.text()).then(data => {
+            document.getElementById('footer').innerHTML = data;
+        })
+    ]).then(() => {
+        // After navbar and footer are loaded, activate the current nav link
+        const navLinks = document.querySelectorAll('.nav-link-custom');
+        const currentPath = window.location.pathname;
 
-    fetch('layout/footer.html')
-        .then(response => response.text())
-        .then(data => document.getElementById('footer').innerHTML = data)
-        .catch(error => console.error('Error loading navbar:', error));
+        let activeFound = false;
 
+        navLinks.forEach(link => {
+            const linkPath = link.getAttribute('href');
+            if (currentPath.includes(linkPath)) {
+                link.classList.add('active');
+                activeFound = true;
+            } else {
+                link.classList.remove('active');
+            }
+
+            link.addEventListener('click', function() {
+                navLinks.forEach(link => link.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // If no other link is active, make Home active
+        if (!activeFound) {
+            document.querySelector('.nav-link-custom[href="index.html"]').classList.add('active');
+        }
+    }).catch(error => console.error('Error loading navbar or footer:', error));
 });
-
-// Get the current URL path and split it to get the filename
-var path = window.location.pathname;
-var page = path.split("/").pop();
-
-// Find the nav-link with the matching href and add the 'active' class
-var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-navLinks.forEach(function (navLink) {
-    if (navLink.getAttribute('href') === page) {
-        navLink.classList.add('active');
-    }
-});
-console.log("Path:", path);
-console.log("Page:", page);
