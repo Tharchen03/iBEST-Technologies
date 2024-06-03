@@ -42,7 +42,7 @@ $(document).ready(function(){
 	        autoplay:true,
 	        slidesToShow: 5,
 	        slidesToScroll: 3,
-	        autoplaySpeed:1500,
+	        autoplaySpeed:2500,
 	        // the magic
 			responsive: [
 				{
