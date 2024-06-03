@@ -260,7 +260,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     background:rgba(65,73,89,.65);
     z-index: -1;
 }
-.welcome-hero-txt { padding-top: 155px;}
+.welcome-hero-txt { padding-top: 305px;}
 
 .welcome-hero-txt h2 {
     font-size: 48px;
@@ -382,7 +382,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 /*-------------------------------------
         6. Works 
 --------------------------------------*/
-.works{padding: 0 0 90px;}
+.works{padding: 90px 0 0 0;}
 .works-content {margin-top: 73px;}
 
 .single-how-works{
@@ -954,5 +954,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     font-size: 12px;
     font-weight: 300;
 }
-
-/*========================Thank you=================
+/* 
+#services{
+    padding-top: 200px;
+} */
