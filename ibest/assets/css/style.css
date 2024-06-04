@@ -556,6 +556,17 @@ nav.navbar.bootsnav .navbar-toggle i {
     border-radius: 50%;
 }
 
+.single-how-works-icon i{
+    display: inline-block;
+    color: #50616c;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background: #eef2f6;
+    border-radius: 50%;
+    font-size: 35px;
+}
+
 .single-how-works h2 a {
     font-size: 18px;
     margin: 35px 0 20px;
@@ -1189,7 +1200,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .footer-menu ul.footer-menu-item li a:hover {
-    color: #f43032;
+    color: #1e92c0;
 }
 
 .hm-footer-copyright {
@@ -1278,7 +1289,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 #scroll-Top .return-to-top:hover {
-    background: #f43032;
+    background: #1e92c0;
     border: 1px solid #1e92c0;
 }
 
@@ -1331,7 +1342,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     text-transform: capitalize;
 }
 
-.select-opt a :hover {
+.select-opt a:hover {
     /* color: black;
      */
     display: inline-block;
