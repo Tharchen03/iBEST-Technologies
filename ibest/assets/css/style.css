@@ -1117,7 +1117,15 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .subscription-input-group:hover .subscription-input-form {
-    box-shadow: 0 5px 20px rgba(21, 19, 19, .4);
+    /* box-shadow: 0 5px 20px rgba(21, 19, 19, .4); */
+    box-shadow: 0 5px 20px rgba(177, 248, 248, 0.4);
+}
+
+
+
+textarea {
+    padding-top: 15px;
+    /* text-align: start;  */
 }
 
 /*custom-input-group*/
