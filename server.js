@@ -25,7 +25,7 @@ app.post('/send-email', async (req, res) => {
         },
     });
 
-    // Mail options
+    // Mail optionsj
     const mailOptions = {
         from: 'sherabten098@gmail.com',
         to: 'cocodon098@gmail.com',
