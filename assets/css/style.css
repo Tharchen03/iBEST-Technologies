@@ -1383,9 +1383,7 @@ textarea {
     height: 100%;
     top: 0;
     left: 0;
-    /* Background with radial gradient */
     background-image: radial-gradient(circle at center,
-            /* Replace with your actual colors */
             #20a1d4,
             #66d1fc 70%);
     display: flex;
@@ -1426,7 +1424,6 @@ textarea {
     }
 }
 
-/* Hide main content initially */
 #main-content {
     display: none;
 }

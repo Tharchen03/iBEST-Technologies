@@ -117,16 +117,21 @@ $(document).ready(function () {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
+    const loadingContent = document.querySelector('.loading-content');
+    // loadingContent.style.visibility = 'visible'; 
+
     const letters = document.querySelectorAll('.letter');
     letters.forEach((letter, index) => {
+        letter.style.opacity = '0'; // Hide each letter initially
         letter.style.animationDelay = `${index * 0.1}s`;
     });
-
     setTimeout(function() {
         document.getElementById('loading-screen').style.display = 'none';
         document.getElementById('main-content').style.display = 'block';
-    }, 3500); 
+    }, 3700); 
 });
+
+
 
 
 
