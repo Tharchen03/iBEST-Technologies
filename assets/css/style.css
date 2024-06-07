@@ -244,13 +244,13 @@ nav.navbar.bootsnav {
     font-size: 20px;
     font-weight: 700;
     padding: 34px 0px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 .navbar-header a.navbar-brand span {
     display: inline-block;
     color: #1e92c0;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand,
@@ -1432,4 +1432,6 @@ textarea {
     display: none;
 }
 
-
+.lowercase {
+    text-transform: lowercase;
+}
