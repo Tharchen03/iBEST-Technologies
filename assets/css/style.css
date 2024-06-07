@@ -1383,9 +1383,7 @@ textarea {
     height: 100%;
     top: 0;
     left: 0;
-    background-image: radial-gradient(circle at center,
-            #20a1d4,
-            #66d1fc 70%);
+    background-image: radial-gradient(circle at center, #20a1d4, #66d1fc 70%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1395,6 +1393,7 @@ textarea {
 .loading-content {
     font-size: 3.5em;
     color: black;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -1409,16 +1408,21 @@ textarea {
     }
 }
 
-.letter {
-    opacity: 0;
-    animation: fadeInLetter 3s forwards;
+.slogan {
+    display: none;
+    font-size: 0.5em; /* Adjust size for the slogan */
+    margin-top: 20px;
 }
 
-@keyframes fadeInLetter {
+.word {
+    opacity: 0;
+    animation: fadeInWord 0.5s forwards;
+}
+
+@keyframes fadeInWord {
     0% {
         opacity: 0;
     }
-
     100% {
         opacity: 1;
     }
@@ -1427,3 +1431,5 @@ textarea {
 #main-content {
     display: none;
 }
+
+

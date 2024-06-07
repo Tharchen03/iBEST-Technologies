@@ -117,19 +117,32 @@ $(document).ready(function () {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    const loadingContent = document.querySelector('.loading-content');
-    // loadingContent.style.visibility = 'visible'; 
+    // Show the main text immediately
+    const mainText = document.querySelector('.main-text');
+    mainText.style.opacity = '1';
 
-    const letters = document.querySelectorAll('.letter');
-    letters.forEach((letter, index) => {
-        letter.style.opacity = '0'; // Hide each letter initially
-        letter.style.animationDelay = `${index * 0.1}s`;
-    });
+    // Show the slogan with word-by-word animation
+    setTimeout(function() {
+        const slogan = document.querySelector('.slogan');
+        slogan.style.display = 'block'; // Show the slogan container
+        const words = document.querySelectorAll('.slogan .word');
+        words.forEach((word, index) => {
+            word.style.animationDelay = `${index * 0.5}s`;
+        });
+    }, 500); // Delay to start the slogan animation
+
+    // Calculate the total duration of the slogan animation
+    const words = document.querySelectorAll('.slogan .word');
+    const sloganAnimationDuration = words.length * 500;
+
+    // Hide loading screen and show main content after both animations complete
     setTimeout(function() {
         document.getElementById('loading-screen').style.display = 'none';
         document.getElementById('main-content').style.display = 'block';
-    }, 3700); 
+    }, 500 + sloganAnimationDuration + 500); // Total duration with additional delay for smooth transition
 });
+
+
 
 
 
