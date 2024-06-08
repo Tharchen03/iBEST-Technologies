@@ -1462,7 +1462,7 @@ textarea {
     height: auto;
 }
 .slick-prev:before, .slick-next:before {
-    color: black;
+    color: #1e92c0;
 }
 
 .single-list-topics-content {
@@ -1478,5 +1478,5 @@ textarea {
     display: block;
 }
 .slick-prev:before, .slick-next:before {
-    color: black;
+    color: #1e92c0;
 }
