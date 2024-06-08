@@ -27,24 +27,27 @@
 
 .icon-csharp:before {
     content: "\e904";
-    color: #0095d5;
+    /* color: #0095d5; */
+    color: #045388;
 }
 
 .icon-kotlin:before {
     content: "\e903";
-    color: #0095d5;
+    color: #045388;
 }
 
 .icon-dart:before {
     content: "\e902";
-    color: #0175c2;
+    color: #045388;
 }
 
 .icon-javascript:before {
     content: "\e901";
-    color: #f7df1e;
+    /* color: #f7df1e; */
+    color: #045388;
 }
 
 .icon-document-file-php:before {
+    color: #045388;
     content: "\e900";
 }

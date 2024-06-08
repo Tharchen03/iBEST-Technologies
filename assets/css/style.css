@@ -1125,7 +1125,13 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 textarea {
     padding-top: 15px;
+    height: 600px;
     /* text-align: start;  */
+}
+
+#message{
+    height: 100px;
+
 }
 
 /*custom-input-group*/
@@ -1454,6 +1460,22 @@ textarea {
 .single-blog-item-img img {
     width: 100%;
     height: auto;
+}
+.slick-prev:before, .slick-next:before {
+    color: black;
+}
+
+.single-list-topics-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.single-list-topics-icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.single-list-topics-icon i {
+    display: block;
 }
 .slick-prev:before, .slick-next:before {
     color: black;
