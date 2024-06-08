@@ -139,9 +139,37 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(function() {
         document.getElementById('loading-screen').style.display = 'none';
         document.getElementById('main-content').style.display = 'block';
-    }, 500 + sloganAnimationDuration + 500); // Total duration with additional delay for smooth transition
+    }, 500 + sloganAnimationDuration + 500); 
 });
 
+
+$(document).ready(function(){
+	$('.blog-slider').slick({
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 2500,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: true
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
+});
 
 
 
