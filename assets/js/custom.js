@@ -116,54 +116,57 @@ $(document).ready(function () {
 
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    // Show the main text immediately
-    const mainText = document.querySelector('.main-text');
-    mainText.style.opacity = '1';
+document.addEventListener('DOMContentLoaded', function () {
+	// Show the main text immediately
+	const mainText = document.querySelector('.main-text');
+	mainText.style.opacity = '1';
 
-    // Show the slogan with word-by-word animation
-    setTimeout(function() {
-        const slogan = document.querySelector('.slogan');
-        slogan.style.display = 'block'; // Show the slogan container
-        const words = document.querySelectorAll('.slogan .word');
-        words.forEach((word, index) => {
-            word.style.animationDelay = `${index * 0.5}s`;
-        });
-    }, 500); // Delay to start the slogan animation
+	// Show the slogan with word-by-word animation
+	setTimeout(function () {
+		const slogan = document.querySelector('.slogan');
+		slogan.style.display = 'block'; // Show the slogan container
+		const words = document.querySelectorAll('.slogan .word');
+		words.forEach((word, index) => {
+			word.style.animationDelay = `${index * 0.5}s`;
+		});
+	}, 500); // Delay to start the slogan animation
 
-    // Calculate the total duration of the slogan animation
-    const words = document.querySelectorAll('.slogan .word');
-    const sloganAnimationDuration = words.length * 500;
+	// Calculate the total duration of the slogan animation
+	const words = document.querySelectorAll('.slogan .word');
+	const sloganAnimationDuration = words.length * 500;
 
-    // Hide loading screen and show main content after both animations complete
-    setTimeout(function() {
-        document.getElementById('loading-screen').style.display = 'none';
-        document.getElementById('main-content').style.display = 'block';
-    }, 500 + sloganAnimationDuration + 500); 
+	// Hide loading screen and show main content after both animations complete
+	setTimeout(function () {
+		document.getElementById('loading-screen').style.display = 'none';
+		document.getElementById('main-content').style.display = 'block';
+	}, 500 + sloganAnimationDuration + 500);
 });
 
 
-$(document).ready(function(){
+$(document).ready(function () {
 	$('.blog-slider').slick({
 		infinite: true,
 		slidesToShow: 3,
+		centerMode: true,
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 2500,
-		responsive: [
-			{
+		responsive: [{
 				breakpoint: 1024,
 				settings: {
 					slidesToShow: 2,
-					slidesToScroll: 1,
+					slidesToScroll: 2,
 					infinite: true,
-					dots: true
+					centerMode: true,
+					dots: true,
+					centerPadding: '30px',
 				}
 			},
 			{
 				breakpoint: 600,
 				settings: {
 					slidesToShow: 1,
+					// centerMode: true,
 					slidesToScroll: 1
 				}
 			}
@@ -171,15 +174,14 @@ $(document).ready(function(){
 	});
 });
 
-$(document).ready(function(){
+$(document).ready(function () {
 	$('.topic-slider').slick({
 		infinite: true,
 		slidesToShow: 5,
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 2500,
-		responsive: [
-			{
+		responsive: [{
 				breakpoint: 1024,
 				settings: {
 					slidesToShow: 3,
@@ -199,9 +201,35 @@ $(document).ready(function(){
 	});
 });
 
-
-
-
-
-
-
+$(document).ready(function () {
+	$('.client-topics-content ul').slick({
+		slidesToShow: 5,
+		slidesToScroll: 1,
+		centerMode: true,
+		centerPadding: '30px',
+		autoplay: true,
+		autoplaySpeed: 2000,
+		responsive: [{
+				breakpoint: 1024, // Tablet breakpoint
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: true,
+					centerMode: true,
+					centerPadding: '20px',
+				}
+			},
+			{
+				breakpoint: 600, 
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					centerMode: true,
+					centerPadding: '10px',
+					// dots: true,
+				}
+			}
+		]
+	});
+});
