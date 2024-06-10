@@ -151,6 +151,7 @@ $(document).ready(function () {
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 2500,
+		centerPadding: '30px',
 		responsive: [{
 				breakpoint: 1024,
 				settings: {
