@@ -44,8 +44,11 @@
 //     }
 // }
 
-console.log(process.env.RECAPTCHA_SITE_KEY);
-console.log(process.env.RECAPTCHA_SECRET_KEY);
+var onloadCallback = function() {
+    grecaptcha.render('your-recaptcha-element-id', {
+        'sitekey' : '6LcqBvUpAAAAAHeTNv4gitbasAqRC2kIprfgc59Y'
+    });
+};
 
 async function sendEmail(event) {
     event.preventDefault();
@@ -61,7 +64,7 @@ async function sendEmail(event) {
             icon: "error",
             title: "Please complete the CAPTCHA",
             showConfirmButton: false,
-            timer: 1500
+            timer: 5500
         });
         return;
     }
@@ -75,28 +78,41 @@ async function sendEmail(event) {
             body: JSON.stringify({ name, email, message, recaptchaResponse }),
         });
 
+        const responseData = await response.json(); // Parse response data as JSON
+
         const resetForm = () => {
             document.getElementById('contactForm').reset();
             grecaptcha.reset();
         };
 
-        if (response.ok) {
-            Swal.fire({
-                position: "bottom-end",
-                icon: "success",
-                title: "Your message has been sent",
-                showConfirmButton: false,
-                timer: 1500
-            });
-            resetForm();
+        if (responseData.captchaSuccess) { // Check if captchaSuccess is true
+            if (response.ok) {
+                Swal.fire({
+                    position: "bottom-end",
+                    icon: "success",
+                    title: "Your message has been sent",
+                    showConfirmButton: false,
+                    timer: 5500
+                });
+                resetForm();
+            } else {
+                const errorMessage = await response.text();
+                Swal.fire({
+                    position: "bottom-end",
+                    icon: "error",
+                    title: `Failed to send message: ${errorMessage}`,
+                    showConfirmButton: false,
+                    timer: 5500
+                });
+                resetForm();
+            }
         } else {
-            const errorMessage = await response.text();
             Swal.fire({
                 position: "bottom-end",
                 icon: "error",
-                title: `Failed to send message: ${errorMessage}`,
+                title: "CAPTCHA verification failed",
                 showConfirmButton: false,
-                timer: 1500
+                timer: 5500
             });
             resetForm();
         }
@@ -107,9 +123,10 @@ async function sendEmail(event) {
             icon: "error",
             title: 'Failed to send message. Please try again later.',
             showConfirmButton: false,
-            timer: 1500
+            timer: 5500
         });
         resetForm();
     }
 }
+
 
