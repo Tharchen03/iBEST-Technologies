@@ -1541,6 +1541,8 @@ textarea {
     -ms-transition: .3s linear;
     -o-transition: .3s linear;
     transition: .3s linear;
+    border-radius: 10px; /* Added circular radius */
+
 }
 
 @media only screen and (max-width: 600px) {
