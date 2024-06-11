@@ -1,24 +1,5 @@
 $(document).ready(function () {
 	"use strict";
-
-	/*==================================
-* Author        : "ThemeSine"
-* Template Name : Listrace directory HTML Template
-* Version       : 1.0
-==================================== */
-
-
-
-
-	/*=========== TABLE OF CONTENTS ===========
-	1. Scroll To Top 
-	2. slick carousel
-	3. welcome animation support
-	4. feather icon
-	5. counter
-	======================================*/
-
-	// 1. Scroll To Top 
 	$(window).on('scroll', function () {
 		if ($(this).scrollTop() > 600) {
 			$('.return-to-top').fadeIn();
@@ -35,7 +16,6 @@ $(document).ready(function () {
 
 
 	// 2. slick carousel
-
 	$(".testimonial-carousel").slick({
 		infinite: true,
 		centerMode: true,
@@ -115,32 +95,37 @@ $(document).ready(function () {
 	});
 
 });
+document.addEventListener("DOMContentLoaded", function() {
+	// Simulate loading time
+	setTimeout(function() {
+	  // Hide the loader
+	  document.getElementById('loading-container').style.display = 'none';
+	  // Show the main content
+	  document.querySelector('.main-content').style.display = 'block';
+	}, 3000); // Adjust the time as needed
+  });
+  
+// document.addEventListener('DOMContentLoaded', function () {
+// 	const mainText = document.querySelector('.main-text');
+// 	mainText.style.opacity = '1';
 
-document.addEventListener('DOMContentLoaded', function () {
-	// Show the main text immediately
-	const mainText = document.querySelector('.main-text');
-	mainText.style.opacity = '1';
+// 	setTimeout(function () {
+// 		const slogan = document.querySelector('.slogan');
+// 		slogan.style.display = 'block'; // Show the slogan container
+// 		const words = document.querySelectorAll('.slogan .word');
+// 		words.forEach((word, index) => {
+// 			word.style.animationDelay = `${index * 0.5}s`;
+// 		});
+// 	}, 500); 
 
-	// Show the slogan with word-by-word animation
-	setTimeout(function () {
-		const slogan = document.querySelector('.slogan');
-		slogan.style.display = 'block'; // Show the slogan container
-		const words = document.querySelectorAll('.slogan .word');
-		words.forEach((word, index) => {
-			word.style.animationDelay = `${index * 0.5}s`;
-		});
-	}, 500); // Delay to start the slogan animation
+// 	const words = document.querySelectorAll('.slogan .word');
+// 	const sloganAnimationDuration = words.length * 500;
 
-	// Calculate the total duration of the slogan animation
-	const words = document.querySelectorAll('.slogan .word');
-	const sloganAnimationDuration = words.length * 500;
-
-	// Hide loading screen and show main content after both animations complete
-	setTimeout(function () {
-		document.getElementById('loading-screen').style.display = 'none';
-		document.getElementById('main-content').style.display = 'block';
-	}, 500 + sloganAnimationDuration + 500);
-});
+// 	setTimeout(function () {
+// 		document.getElementById('loading-screen').style.display = 'none';
+// 		document.getElementById('main-content').style.display = 'block';
+// 	}, 500 + sloganAnimationDuration + 500);
+// });
 
 
 $(document).ready(function () {

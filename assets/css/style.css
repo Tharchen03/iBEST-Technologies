@@ -1,32 +1,4 @@
-/*==================================
-* Author        : "ThemeSine"
-* Template Name : Listrace  HTML Template
-* Version       : 1.0
-==================================== */
 
-/*==================================
-font-family: 'Roboto', sans-serif;
-==================================== */
-
-
-/*=========== TABLE OF CONTENTS ===========
-1.  General css (Reset code)
-2.  Header-top
-3.  Top-area
-4.  Welcome-hero
-5.  List-topics
-6.  Works  
-7.  Explore
-8.  Reviews
-9.  Counter
-10. Blog
-11. Subscribe
-12. Footer
-==========================================*/
-
-/*-------------------------------------
-		1.General css (Reset code)
---------------------------------------*/
 * {
     padding: 0;
     margin: 0;
@@ -1449,9 +1421,9 @@ textarea {
     }
 }
 
-#main-content {
+/* #main-content {
     display: none;
-}
+} */
 
 .lowercase {
     text-transform: lowercase;
@@ -1635,6 +1607,6 @@ textarea {
 
 @media only screen and (max-width: 600px) {
     .captchaPhone {
-        margin-left: 64px;
+        margin-left: 35px;
     }
 }
