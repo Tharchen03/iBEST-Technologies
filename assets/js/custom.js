@@ -224,10 +224,10 @@ $(document).ready(function () {
 			{
 				breakpoint: 600, 
 				settings: {
-					slidesToShow: 3,
+					slidesToShow: 2.5,
 					slidesToScroll: 1,
 					centerMode: true,
-					centerPadding: '10px',
+					centerPadding: '5px',
 					// dots: true,
 				}
 			}
