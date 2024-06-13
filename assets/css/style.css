@@ -1475,7 +1475,7 @@ textarea {
         padding-right: 15px;
         padding-left: 15px;
         margin-right: 90px;
-        margin-left: 65px;
+        margin-left: 80px;
     }
 }
 
@@ -1484,10 +1484,16 @@ textarea {
         padding-right: 15px;
         padding-left: 15px;
         margin-right: 0px;
-        margin-left: 40px;
+        margin-left: 60px;
     }
 }
 
+
+@media only screen and (max-width: 600px) {
+    .stackPhone {
+        margin-top:-170px;
+    }
+}
 
 .single-blog-item {
     padding: 10px;
