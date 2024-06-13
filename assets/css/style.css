@@ -506,7 +506,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 .single-how-works {
     text-align: center;
-    padding: 50px 42px;
+    /* padding: 50px 42px; */
     border-radius: 3px;
     box-shadow: 0 0px 5px rgba(71, 71, 71, .2);
     margin-bottom: 30px;
@@ -515,6 +515,10 @@ nav.navbar.bootsnav .navbar-toggle i {
     -ms-transition: .3s linear;
     -o-transition: .3s linear;
     transition: .3s linear;
+    min-height: 600px; 
+    padding-top: 340px;
+
+
 }
 
 .single-how-works-icon {
