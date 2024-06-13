@@ -515,11 +515,44 @@ nav.navbar.bootsnav .navbar-toggle i {
     -ms-transition: .3s linear;
     -o-transition: .3s linear;
     transition: .3s linear;
-    min-height: 600px; 
-    padding-top: 340px;
+    min-height: 600px;
+    padding-top: 450px;
 
 
 }
+
+.webbg {
+    background-image: url('../images/services/web.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.mobilebg {
+    background-image: url('../images/services/mobile.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.custombg {
+    background-image: url('../images/services/custom.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.modbg {
+    background-image: url('../images/services/leg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
 
 .single-how-works-icon {
     display: inline-block;
@@ -543,8 +576,11 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .single-how-works h2 a {
-    font-size: 18px;
+    font-size: 3rem;
     margin: 35px 0 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .single-how-works h2 a span {
@@ -552,8 +588,10 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .single-how-works p {
-    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
     text-transform: initial;
+    color: white;
+
 }
 
 .single-how-works-icon [class^="flaticon-"]:before,
@@ -582,6 +620,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     border-radius: 3px;
 }
 
+/* 
 .single-how-works:hover h2 a,
 .single-how-works:hover p {
     color: #fff;
@@ -599,7 +638,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 .single-how-works:hover {
     box-shadow: 0 0px 10px rgba(71, 71, 71, .4);
     background: #1e92c0;
-}
+} */
 
 /*-------------------------------------
         7. Explore
@@ -1703,27 +1742,45 @@ textarea {
     overflow: hidden;
     font-family: 'Share Tech Mono', 'Orbitron';
 
-  }
-  .welcome-hero-txt h2 span.typed-text {
+}
+
+.welcome-hero-txt h2 span.typed-text {
     font-weight: normal;
     color: #dd7732;
     font-family: 'Share Tech Mono', 'Orbitron';
 
-  }
-  .welcome-hero-txt h2 span.cursor {
+}
+
+.welcome-hero-txt h2 span.cursor {
     display: inline-block;
     background-color: #ccc;
     margin-left: 0.1rem;
     width: 3px;
     animation: blink 1s infinite;
-  }
-  .welcome-hero-txt h2 span.cursor.typing {
+}
+
+.welcome-hero-txt h2 span.cursor.typing {
     animation: none;
-  }
-  @keyframes blink {
-    0%  { background-color: #ccc; }
-    49% { background-color: #ccc; }
-    50% { background-color: transparent; }
-    99% { background-color: transparent; }
-    100%  { background-color: #ccc; }
-  }
+}
+
+@keyframes blink {
+    0% {
+        background-color: #ccc;
+    }
+
+    49% {
+        background-color: #ccc;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    99% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: #ccc;
+    }
+}
