@@ -436,6 +436,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     position: relative;
     top: -98px;
     z-index: 1;
+    margin-left: 50px;
 }
 
 .list-topics-content ul li {
@@ -464,6 +465,8 @@ nav.navbar.bootsnav .navbar-toggle i {
 .single-list-topics-content h2>a {
     margin: 13px 0;
 }
+
+/*.single-list-topics-content:last-child{margin-right: 0;}*/
 
 .single-list-topics-icon [class^="flaticon-"]:before,
 .single-list-topics-icon [class*=" flaticon-"]:before,
@@ -1564,7 +1567,7 @@ textarea {
         padding-right: 15px;
         padding-left: 15px;
         margin-right: 0px;
-        margin-left: 60px;
+        /* margin-left: 60px; */
     }
 }
 
