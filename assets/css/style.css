@@ -894,16 +894,32 @@ nav.navbar.bootsnav .navbar-toggle i {
     text-transform: capitalize;
 }
 
-.team-img {
+/* .team-img {
     position: relative;
-    /* top: 11px; */
     border-radius: 50%;
     -webkit-transition: .3s;
     -moz-transition: .3s;
     -ms-transition: .3s;
     -o-transition: .3s;
     transition: .3s;
+} */
+
+.team-img {
+    width: 150px; /* Adjust the width and height as per your design */
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #fff; /* Optional: Add a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
 }
+
+.team-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Ensure the image itself is also circular */
+}
+
 
 .team-comment {
     margin-top: 18px;
