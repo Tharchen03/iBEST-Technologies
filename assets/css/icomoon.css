@@ -25,14 +25,76 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-express-svgrepo-com:before {
+    content: "\e90e";
+    color: #045388;
+
+}
+
+.icon-mariadb-icon-svgrepo-com .path1:before {
+    content: "\e90f";
+    color: rgb(0, 43, 100);
+}
+
+.icon-mariadb-icon-svgrepo-com .path2:before {
+    content: "\e910";
+    margin-left: -1em;
+    color: rgb(4, 83, 136);
+}
+
+.icon-mariadb-icon-svgrepo-com .path3:before {
+    content: "\e911";
+    margin-left: -1em;
+    color: rgb(0, 43, 100);
+}
+
+.icon-unity:before {
+    color: #045388;
+    content: "\e906";
+}
+
+.icon-graphql:before {
+    content: "\e907";
+    color: #045388;
+}
+
+.icon-docker:before {
+    content: "\e908";
+    color: #045388;
+}
+
+.icon-amazonaws:before {
+    color: #045388;
+    content: "\e909";
+}
+
+.icon-react:before {
+    content: "\e90a";
+    color: #045388;
+}
+
+.icon-mongodb:before {
+    content: "\e90b";
+    color: #045388;
+}
+
+.icon-laravel:before {
+    content: "\e90c";
+    color: #045388;
+}
+
+.icon-flutter:before {
+    content: "\e90d";
+    color: #045388;
+}
+
 .icon-node-dot-js:before {
     content: "\e905";
     color: #045388;
-  }
+}
 
 .icon-csharp:before {
     content: "\e904";
-    /* color: #0095d5; */
     color: #045388;
 }
 
@@ -48,7 +110,6 @@
 
 .icon-javascript:before {
     content: "\e901";
-    /* color: #f7df1e; */
     color: #045388;
 }
 
