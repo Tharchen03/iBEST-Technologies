@@ -313,7 +313,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 --------------------------------------*/
 .welcome-hero {
     position: relative;
-    background: url(../images/welcome-hero/ibest.png)no-repeat;
+    background: url(../images/welcome-hero/net.png)no-repeat;
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -328,19 +328,19 @@ nav.navbar.bootsnav .navbar-toggle i {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0.2, 0.4, 0, 0.2);
     z-index: -1;
 }
 
 .welcome-hero-txt {
-    padding-top: 305px;
+    padding-top: 190px;
 }
 
 .welcome-hero-txt h2 {
     font-size: 48px;
     color: #fff;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 2.4px;
     line-height: 1.4;
 }
@@ -1639,10 +1639,87 @@ textarea {
     /* Additional styles if needed */
 }
 
-.works-content{
-    padding:20px;
+.works-content {
+    padding: 20px;
 }
 
-.testimonial-img img{
+.testimonial-img img {
     margin-left: 20px;
 }
+
+.wel {
+    font-family: 'Share Tech Mono', 'Orbitron';
+}
+
+.line-1 {
+    position: relative;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    font-family: 'Share Tech Mono', 'Orbitron';
+}
+
+/* Animation */
+.anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+        blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 24em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.welcome-hero-txt h2 {
+    font-size: 5rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Share Tech Mono', 'Orbitron';
+
+  }
+  .welcome-hero-txt h2 span.typed-text {
+    font-weight: normal;
+    color: #dd7732;
+    font-family: 'Share Tech Mono', 'Orbitron';
+
+  }
+  .welcome-hero-txt h2 span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  .welcome-hero-txt h2 span.cursor.typing {
+    animation: none;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }

@@ -65,23 +65,24 @@ $(document).ready(function () {
 
 	// 3. welcome animation support
 
-	$(window).load(function () {
-		$(".welcome-hero-txt h2,.welcome-hero-txt p").removeClass("animated fadeInUp").css({
-			'opacity': '0'
-		});
-		$(".welcome-hero-serch-box").removeClass("animated fadeInDown").css({
-			'opacity': '0'
-		});
-	});
+	// $(window).load(function () {
+	// 	$(".welcome-hero-txt h2,.welcome-hero-txt p").removeClass("animated fadeInUp").css({
+	// 		'opacity': '0'
+	// 	});
+	// 	$(".welcome-hero-serch-box").removeClass("animated fadeInDown").css({
+	// 		'opacity': '0'
+	// 	});
+	// });
 
-	$(window).load(function () {
-		$(".welcome-hero-txt h2,.welcome-hero-txt p").addClass("animated fadeInUp").css({
-			'opacity': '0'
-		});
-		$(".welcome-hero-serch-box").addClass("animated fadeInDown").css({
-			'opacity': '0'
-		});
-	});
+	// $(window).on('load', function () {
+	// 	$(".welcome-hero-txt h2 ").addClass("line-1 anim-typewriter").css({
+	// 		'opacity': '1'
+	// 	})
+	// });
+	// 	$(".welcome-hero-serch-box").addClass("animated fadeInDown").css({
+	// 		'opacity': '0'
+	// 	});
+	// });
 
 	// 4. feather icon
 	feather.replace();
@@ -95,16 +96,17 @@ $(document).ready(function () {
 	});
 
 });
-document.addEventListener("DOMContentLoaded", function() {
+
+document.addEventListener("DOMContentLoaded", function () {
 	// Simulate loading time
-	setTimeout(function() {
-	  // Hide the loader
-	  document.getElementById('loading-container').style.display = 'none';
-	  // Show the main content
-	  document.querySelector('.main-content').style.display = 'block';
+	setTimeout(function () {
+		// Hide the loader
+		document.getElementById('loading-container').style.display = 'none';
+		// Show the main content
+		document.querySelector('.main-content').style.display = 'block';
 	}, 3000); // Adjust the time as needed
-  });
-  
+});
+
 // document.addEventListener('DOMContentLoaded', function () {
 // 	const mainText = document.querySelector('.main-text');
 // 	mainText.style.opacity = '1';
@@ -207,7 +209,7 @@ $(document).ready(function () {
 				}
 			},
 			{
-				breakpoint: 600, 
+				breakpoint: 600,
 				settings: {
 					slidesToShow: 2.5,
 					slidesToScroll: 1,
@@ -218,4 +220,45 @@ $(document).ready(function () {
 			}
 		]
 	});
+});
+
+
+const typedTextSpan = document.querySelector(".typed-text");
+const cursorSpan = document.querySelector(".cursor");
+
+const textArray = ["the 21st century.", "the digital age."];
+const typingDelay = 200;
+const erasingDelay = 100;
+const newTextDelay = 2000; // Delay between current and next text
+let textArrayIndex = 0;
+let charIndex = 0;
+
+function type() {
+	if (charIndex < textArray[textArrayIndex].length) {
+		if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+		typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+		charIndex++;
+		setTimeout(type, typingDelay);
+	} else {
+		cursorSpan.classList.remove("typing");
+		setTimeout(erase, newTextDelay);
+	}
+}
+
+function erase() {
+	if (charIndex > 0) {
+		if (!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+		typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+		charIndex--;
+		setTimeout(erase, erasingDelay);
+	} else {
+		cursorSpan.classList.remove("typing");
+		textArrayIndex++;
+		if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+		setTimeout(type, typingDelay + 1100);
+	}
+}
+
+document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
+	if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
