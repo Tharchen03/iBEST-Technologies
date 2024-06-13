@@ -220,7 +220,7 @@ nav.navbar.bootsnav {
 
 .navbar-header a.navbar-brand span {
     display: inline-block;
-    color: #1e92c0;
+    /* color: #1e92c0; */
     /* text-transform: capitalize; */
 }
 
@@ -1551,6 +1551,10 @@ textarea {
 
 .lowercase {
     text-transform: lowercase;
+}
+
+.caps {
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 600px) {
