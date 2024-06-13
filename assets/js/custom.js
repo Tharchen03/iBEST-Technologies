@@ -138,16 +138,16 @@ $(document).ready(function () {
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 2500,
-		centerPadding: '30px',
+		centerPadding: '10px',
 		responsive: [{
 				breakpoint: 1024,
 				settings: {
 					slidesToShow: 2,
-					slidesToScroll: 2,
+					slidesToScroll: 1,
 					infinite: true,
 					centerMode: true,
 					dots: true,
-					centerPadding: '30px',
+					centerPadding: '10px',
 				}
 			},
 			{

@@ -907,7 +907,8 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 .team-comment {
     margin-top: 18px;
-    text-align: center; /* Center text horizontally */
+    text-align: center;
+    /* Center text horizontally */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1051,6 +1052,70 @@ nav.navbar.bootsnav .navbar-toggle i {
     -ms-transition: .3s;
     -o-transition: .3s;
     transition: .3s;
+    height: 350px;
+    width: 350px;
+}
+
+.educare {
+    background-image: url('../images/anouncement/educare.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.esakor {
+    background-image: url('../images/anouncement/esakor.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.oneB {
+    background-image: url('../images/anouncement/onebhutan.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.rawS {
+    background-image: url('../images/anouncement/rawstar.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.takinW {
+    background-image: url('../images/anouncement/takin.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.wasteW {
+    background-image: url('../images/anouncement/waste.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.LG {
+    background-image: url('../images/anouncement/lg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.Tapp {
+    background-image: url('../images/anouncement/tapp.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .single-blog-item-txt {
@@ -1491,7 +1556,7 @@ textarea {
 
 @media only screen and (max-width: 600px) {
     .stackPhone {
-        margin-top:-170px;
+        margin-top: -170px;
     }
 }
 
