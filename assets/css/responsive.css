@@ -251,8 +251,8 @@
 
 @media screen and (max-width: 399px) {
 
-	.testimonial-carousel .col-sm-3,
-	.testimonial-carousel .col-xs-12 {
+	.team-carousel .col-sm-3,
+	.team-carousel .col-xs-12 {
 		width: 260px;
 	}
 

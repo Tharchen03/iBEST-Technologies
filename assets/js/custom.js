@@ -16,7 +16,7 @@ $(document).ready(function () {
 
 
 	// 2. slick carousel
-	$(".testimonial-carousel").slick({
+	$(".team-carousel").slick({
 		infinite: true,
 		centerMode: true,
 		autoplay: true,
