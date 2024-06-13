@@ -25,6 +25,11 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-node-dot-js:before {
+    content: "\e905";
+    color: #045388;
+  }
+
 .icon-csharp:before {
     content: "\e904";
     /* color: #0095d5; */
