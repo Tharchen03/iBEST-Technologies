@@ -1241,7 +1241,14 @@ var $jscomp$this = this;
     items.forEach((el, pos) => {
         const bttn = el.querySelector('button.particles-button');
         const bttnBack = el.querySelector('button.action');
-
+    
+        // Create a new element to display the text with a class name
+        const textElement = document.createElement('div');
+        textElement.className = 'disintegration-text';
+        textElement.style.display = 'none';
+        textElement.textContent = 'qwertyuiop';
+        el.appendChild(textElement);
+    
         let particlesOpts = arrOpts[pos];
         particlesOpts.complete = () => {
             if (!buttonVisible) {
@@ -1257,12 +1264,14 @@ var $jscomp$this = this;
             }
         };
         const particles = new Particles(bttn, particlesOpts);
-
+    
         let buttonVisible = true;
         bttn.addEventListener('click', () => {
             if (!particles.isAnimating() && buttonVisible) {
                 particles.disintegrate();
                 buttonVisible = !buttonVisible;
+                // Show the text when the button is clicked
+                textElement.style.display = 'block';
             }
         });
         bttnBack.addEventListener('click', () => {
@@ -1276,14 +1285,18 @@ var $jscomp$this = this;
                     scale: 0
                 });
                 bttnBack.style.pointerEvents = 'none';
-
+    
                 particles.integrate({
                     duration: 800,
                     easing: 'easeOutSine'
                 });
                 buttonVisible = !buttonVisible;
+                // Hide the text when the back button is clicked
+                textElement.style.display = 'none';
             }
         });
     });
+    
+
 
 })();
