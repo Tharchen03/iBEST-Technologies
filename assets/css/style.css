@@ -1728,6 +1728,15 @@ textarea {
     /* transform: scale(1); */
 }
 
+.clienP{
+padding:20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .clienP{
+        padding:10px;
+        }
+}
 .slick .slick-center {
     opacity: 1;
     transform: scale(1);
