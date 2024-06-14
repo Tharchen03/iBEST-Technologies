@@ -1216,7 +1216,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .subscribe-title h2 {
-    font-size: 3.1rem;
+    font-size: 5.5rem;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -1961,3 +1961,12 @@ padding:20px;
         background:none !important;
     }
 }
+
+.Mlogo {
+    height: 60px;
+    width: 60px;
+    margin-left: -310px;
+    /* padding-top: 20px; */
+    margin-top: 5px;
+}
+
