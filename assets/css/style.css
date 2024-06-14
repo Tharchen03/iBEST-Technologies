@@ -203,6 +203,7 @@ nav.navbar.bootsnav {
 }
 
 .wrap-sticky nav.navbar.bootsnav.sticked {
+    backdrop-filter: saturate(180%) blur(20px);
     background-color: rgba(255,255,255,0.7);
     box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 }
@@ -1927,8 +1928,10 @@ padding:20px;
     color: white !important;
 }
 
+
 .contactC{
     background:black !important;
+    size:inherit;
 }
 
 @media only screen and (max-width: 600px) {
