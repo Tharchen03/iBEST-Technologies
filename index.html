@@ -372,7 +372,23 @@
 						</div><!--/.team-comment-->
 					</div><!--/.team-description-->
 				</div><!--/.single-team-box-->
+				<div class="single-team-box">
+					<div class="team-img">
+						<img src="assets/images/team/tharchen.png" alt="clients">
+					</div><!--/.team-img-->
+					<div class="team-description">
 
+						<div class="team-comment">
+							<div class="team-person">
+								<h3>Sherab Tharchen</h3>
+								<h4>Software Developer</h4>
+							</div>
+							<p>
+								One. Two. Three.
+							</p>
+						</div><!--/.team-comment-->
+					</div><!--/.team-description-->
+				</div><!--/.single-team-box-->
 				<div class="single-team-box">
 					<div class="team-img">
 						<img src="assets/images/team/jangchub.png" alt="clients">
@@ -423,23 +439,7 @@
 						</div><!--/.team-comment-->
 					</div><!--/.team-description-->
 				</div><!--/.single-team-box-->
-				<div class="single-team-box">
-					<div class="team-img">
-						<img src="assets/images/team/tharchen.png" alt="clients">
-					</div><!--/.team-img-->
-					<div class="team-description">
 
-						<div class="team-comment">
-							<div class="team-person">
-								<h3>Sherab Tharchen</h3>
-								<h4>Software Developer</h4>
-							</div>
-							<p>
-								One. Two. Three.
-							</p>
-						</div><!--/.team-comment-->
-					</div><!--/.team-description-->
-				</div><!--/.single-team-box-->
 			</div>
 		</div>
 	</section><!--/.team-->
@@ -654,10 +654,17 @@
 			</p>
 		</div>
 		<div class="container">
-			<button class="action"><svg class="icon icon--rewind">
-					<use xlink:href="#icon-rewind"></use>
-				</svg></button>
-			<button class="particles-button">Se déconnecter</button>
+			<div class="grid__item theme-2">
+				<button class="action" aria-label="Follow"><svg width="28" height="28" viewBox="0 0 28 28">
+						<path
+							d="M14 6.4a7.6 7.6 0 1 0 0 15.2 7.6 7.6 0 0 0 0-15.2zm0-4a11.6 11.6 0 1 1 0 23.2A11.6 11.6 0 0 1 14 2.4z"
+							fill="currentColor"></path>
+					</svg></button>
+				<div class="particles">
+					<canvas class="particles-canvas" width="1" height="1"></canvas>
+					<button class="particles-button" aria-label="Button">Button 2</button>
+				</div>
+			</div>
 		</div>
 
 	</section>
@@ -866,6 +873,7 @@
 	<!--Custom JS-->
 	<script src="assets/js/custom.js"></script>
 	<script src="assets/js/contact.js"></script>
+	<script src="assets/js/career.js"></script>
 	<script src="server.js"></script>
 	<script src="https://example.com/fontawesome/v6.5.2/js/fontawesome.js" data-auto-replace-svg="nest"></script>
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
