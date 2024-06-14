@@ -1246,7 +1246,7 @@ var $jscomp$this = this;
         const textElement = document.createElement('div');
         textElement.className = 'disintegration-text';
         textElement.style.display = 'none';
-        textElement.textContent = 'There is no vaccancies avabiele right now';
+        textElement.textContent = 'There are no vacancies available right now';
         el.appendChild(textElement);
     
         let particlesOpts = arrOpts[pos];
