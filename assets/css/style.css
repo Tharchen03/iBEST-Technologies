@@ -250,7 +250,7 @@ nav.navbar.bootsnav {
 
 /*.nav li*/
 nav.navbar.bootsnav ul.nav>li>a {
-    color: #859098;
+    color: black;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
