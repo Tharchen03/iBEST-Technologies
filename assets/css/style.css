@@ -908,12 +908,15 @@ nav.navbar.bootsnav .navbar-toggle i {
 } */
 
 .team-img {
-    width: 150px; /* Adjust the width and height as per your design */
+    width: 150px;
+    /* Adjust the width and height as per your design */
     height: 150px;
     overflow: hidden;
     border-radius: 50%;
-    border: 2px solid #fff; /* Optional: Add a border */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    border: 2px solid #fff;
+    /* Optional: Add a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a shadow */
 }
 
 .team-img img {
@@ -1121,6 +1124,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     background-repeat: no-repeat;
 
 }
+
 .LG {
     background-image: url('../images/anouncement/lg.png');
     background-size: cover;
@@ -1128,6 +1132,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     background-repeat: no-repeat;
 
 }
+
 .Tapp {
     background-image: url('../images/anouncement/tapp.png');
     background-size: cover;
@@ -1876,9 +1881,7 @@ textarea {
     }
 }
 
-.cas{
+.cas {
     font-family: 'Cascadia Code', sans-serif;
 
 }
-
-                                                
