@@ -108,7 +108,7 @@ body {
 
 .section-header h2 {
     color: #505866;
-    font-size: 28px;
+    font-size: 3.1rem;
     font-weight: 500;
     margin-bottom: 24px;
     text-transform: uppercase;
@@ -1202,7 +1202,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .subscribe-title h2 {
-    font-size: 28px;
+    font-size: 3.1rem;
     font-weight: bold;
     text-transform: uppercase;
 }
