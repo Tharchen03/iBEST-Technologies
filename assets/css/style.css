@@ -1930,3 +1930,17 @@ padding:20px;
 .contactC{
     background:black !important;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .contactC{
+        background:none !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 601px) {
+
+    .contactC{
+        background:none !important;
+    }
+}
