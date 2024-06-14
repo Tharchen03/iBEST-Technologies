@@ -868,7 +868,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     flex-direction: column;
     width: 404px;
     background: #fff;
-    padding: 50px 30px;
+    /* padding: 50px 30px; */
     box-shadow: 0 0px 5px rgba(71, 71, 71, .2);
     overflow-x: hidden;
     -webkit-transition: .3s;
