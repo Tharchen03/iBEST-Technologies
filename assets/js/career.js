@@ -1271,7 +1271,7 @@ var $jscomp$this = this;
                 particles.disintegrate();
                 buttonVisible = !buttonVisible;
                 // Show the text when the button is clicked
-                textElement.style.display = 'block';
+                setTimeout(()=> textElement.style.display = 'block',1500);
             }
         });
         bttnBack.addEventListener('click', () => {
