@@ -877,7 +877,7 @@ var $jscomp$this = this;
             speed: function () {
                 return rand(4);
             },
-            particlesAmountCoefficient: 10,
+            particlesAmountCoefficient: 20,
             oscillationCoefficient: 20
         },
         init: function () {
