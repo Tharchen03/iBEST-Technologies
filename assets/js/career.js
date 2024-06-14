@@ -1246,7 +1246,7 @@ var $jscomp$this = this;
         const textElement = document.createElement('div');
         textElement.className = 'disintegration-text';
         textElement.style.display = 'none';
-        textElement.textContent = 'qwertyuiop';
+        textElement.textContent = 'There is no vaccancies avabiele right now';
         el.appendChild(textElement);
     
         let particlesOpts = arrOpts[pos];
