@@ -1769,6 +1769,10 @@ textarea {
     background: #f8fafb;
 
 }
+.black {
+    background: black;
+
+}
 
 .superscript {
     font-size: 0.6em;
