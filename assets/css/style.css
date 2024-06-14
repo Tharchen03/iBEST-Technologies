@@ -1722,6 +1722,18 @@ textarea {
     align-items: center;
 }
 
+.slick .slick-slide {
+    /* transition: transform 0.3s ease, opacity 0.3s ease; */
+    opacity: 1;
+    /* transform: scale(1); */
+}
+
+.slick .slick-center {
+    opacity: 1;
+    transform: scale(1);
+    /* padding:10px; */
+}
+
 .client-topics-content {
     position: relative;
     top: -98px;
