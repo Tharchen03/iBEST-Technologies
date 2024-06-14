@@ -1,0 +1,73 @@
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+button,
+input {
+    line-height: normal;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+
+
+.action {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    margin: 2rem;
+    color: var(--color-action);
+    border: 0;
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.action:focus {
+    outline: none;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.icon {
+    display: block;
+    width: 2em;
+    height: 2em;
+    margin: 0 auto;
+    fill: currentColor;
+}
+
+.particles {
+    position: relative;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
