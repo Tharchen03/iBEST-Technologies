@@ -861,7 +861,6 @@ nav.navbar.bootsnav .navbar-toggle i {
 .reviews-content {
     margin-top: 36px;
 }
-
 /*single-team-box */
 /* Adjust the .single-team-box to use flexbox */
 .single-team-box {
@@ -888,16 +887,20 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 /* Flexbox container for image and text */
-.team-info {
+.team-content {  /* class name changed to .team-content */
     display: flex;
+    flex-direction: row;
+}
+
+.team-info {
+    flex: 4;  /*占める幅を4に変更 */
     align-items: center;
     justify-content: center;
-    flex: 0 0 70%;
     text-transform: capitalize;
 }
 
 .team-description {
-    flex: 0 0 30%;
+    flex: 1;  /*占める幅を1に変更 */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1771,7 +1774,9 @@ textarea {
 }
 
 .team-img img {
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    background-size: cover;
+
 }
 
 .wel {
