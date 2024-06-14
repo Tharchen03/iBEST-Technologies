@@ -143,7 +143,7 @@
       font-family: 'Cascadia Code', sans-serif;
       position: relative;
       border-radius: 5px;
-      background: var(--color-button-bg);
+      background: #FDB750;
       color: var(--color-button-text);
       border: 0;
       margin: 0;

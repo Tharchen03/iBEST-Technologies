@@ -1153,7 +1153,7 @@ var $jscomp$this = this;
             type: 'rectangle',
             duration: 500,
             easing: 'easeOutQuad',
-            color: '#091388',
+            color: '#FDB750',
             direction: 'top',
             size: 8
         },
@@ -1161,7 +1161,7 @@ var $jscomp$this = this;
             direction: 'right',
             size: 4,
             speed: 1,
-            color: '#e85577',
+            color: '#FDB750',
             particlesAmountCoefficient: 1.5,
             oscillationCoefficient: 1
         },
@@ -1182,7 +1182,7 @@ var $jscomp$this = this;
             type: 'rectangle',
             style: 'stroke',
             size: 15,
-            color: '#e87084',
+            color: '#FDB750',
             duration: 600,
             easing: [0.2, 1, 0.7, 1],
             oscillationCoefficient: 5,
@@ -1194,7 +1194,7 @@ var $jscomp$this = this;
             style: 'stroke',
             direction: 'top',
             size: 5,
-            color: 'blue',
+            color: '#FDB750',
             duration: 1400,
             speed: 1.5,
             oscillationCoefficient: 15,
@@ -1210,7 +1210,7 @@ var $jscomp$this = this;
         {
             direction: 'right',
             size: 4,
-            color: '#969696',
+            color: '#FDB750',
             duration: 1200,
             easing: 'easeInCubic',
             particlesAmountCoefficient: 8,
@@ -1219,7 +1219,7 @@ var $jscomp$this = this;
         },
         {
             style: 'stroke',
-            color: '#1b81ea',
+            color: '#FDB750',
             direction: 'bottom',
             duration: 1200,
             easing: 'easeOutSine',
