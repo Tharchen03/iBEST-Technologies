@@ -872,12 +872,12 @@ var $jscomp$this = this;
             easing: 'easeInOutCubic',
             direction: 'left',
             size: function () {
-                return Math.floor((Math.random() * 3) + 1);
+                return Math.floor((Math.random() * 1) + 1);
             },
             speed: function () {
                 return rand(4);
             },
-            particlesAmountCoefficient: 3,
+            particlesAmountCoefficient: 10,
             oscillationCoefficient: 20
         },
         init: function () {
