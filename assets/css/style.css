@@ -113,11 +113,11 @@ body {
     margin-bottom: 24px;
     text-transform: uppercase;
     letter-spacing: 1.3px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
-    .section-header h2{
+    .section-header h2 {
         font-size: 3.5rem;
 
     }
@@ -218,7 +218,7 @@ nav.navbar.bootsnav {
 
 .wrap-sticky nav.navbar.bootsnav.sticked {
     backdrop-filter: saturate(180%) blur(20px);
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 }
 
@@ -1744,15 +1744,16 @@ textarea {
     /* transform: scale(1); */
 }
 
-.clienP{
-padding:20px;
+.clienP {
+    padding: 20px;
 }
 
 @media only screen and (max-width: 600px) {
-    .clienP{
-        padding:10px;
-        }
+    .clienP {
+        padding: 10px;
+    }
 }
+
 .slick .slick-center {
     opacity: 1;
     transform: scale(1);
@@ -1943,30 +1944,49 @@ padding:20px;
 }
 
 
-.contactC{
-    background:black !important;
-    size:inherit;
+.contactC {
+    background: black !important;
+    size: inherit;
 }
 
 @media only screen and (max-width: 600px) {
 
-    .contactC{
-        background:none !important;
+    .contactC {
+        background: none !important;
     }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 601px) {
 
-    .contactC{
-        background:none !important;
+    .contactC {
+        background: none !important;
     }
 }
 
 .Mlogo {
-    height: 60px;
-    width: 60px;
+    height: 75px;
+    width: 75px;
     margin-left: -310px;
     /* padding-top: 20px; */
     margin-top: 5px;
 }
 
+@media only screen and (max-width: 600px) {
+    .Mlogo {
+        height: 60px;
+        width: 60px;
+        margin-left: -310px;
+        /* padding-top: 20px; */
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 601px) {
+    .Mlogo {
+        height: 50px;
+        width: 50px;
+        margin-left: -310px;
+        /* padding-top: 20px; */
+        margin-top: -15px;
+    }
+}

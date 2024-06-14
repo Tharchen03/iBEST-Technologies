@@ -991,8 +991,8 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
         float: none;
         display: block;
         text-align: center;
-        padding-left: 30px;
-        padding-right: 30px;
+        /* padding-left: 30px;
+        padding-right: 30px; */
     }
 
     nav.navbar.bootsnav .navbar-toggle {
