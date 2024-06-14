@@ -862,7 +862,6 @@ nav.navbar.bootsnav .navbar-toggle i {
     margin-top: 36px;
 }
 /*single-team-box */
-/* Adjust the .single-team-box to use flexbox */
 .single-team-box {
     display: flex;
     flex-direction: column;
@@ -977,6 +976,17 @@ nav.navbar.bootsnav .navbar-toggle i {
     opacity: 1;
 }
 
+/* .team-carousel .slick-slide {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 1; 
+    transform: scale(1); 
+}
+
+.team-carousel .slick-center {
+    opacity: 1; 
+    transform: scale(1.1); 
+    padding:10px;
+} */
 
 /*.slick-slide*/
 
@@ -1879,17 +1889,4 @@ textarea {
     color:white !important;
 }
 
-/* Ensure non-centered slides are not blurred and maintain visibility */
-.team-carousel .slick-slide {
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    opacity: 1; /* Ensure all slides are fully visible */
-    transform: scale(1); /* Ensure all slides are not scaled down */
-}
 
-/* Style the centered slide */
-.team-carousel .slick-center {
-    opacity: 1; /* Ensure the centered slide is fully visible */
-    transform: scale(1.1); 
-    /* Optionally, slightly enlarge the centered slide for emphasis */
-    padding:10px;
-}
