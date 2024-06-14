@@ -147,7 +147,7 @@
       color: var(--color-button-text);
       border: 0;
       margin: 0;
-      padding: 1.5rem 3rem;
+      padding: 2rem 3.5rem;
       will-change: transform;
       user-select: none;
       -webkit-touch-callout: none;
@@ -156,6 +156,8 @@
       -moz-user-select: none;
       -ms-user-select: none;
       color: #87d7fb;
+      width: 250px;
+      font-size: 18px;
   }
 
   .particles-button:focus {
