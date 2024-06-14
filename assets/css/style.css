@@ -861,6 +861,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 .reviews-content {
     margin-top: 36px;
 }
+
 /*single-team-box */
 .single-team-box {
     display: flex;
@@ -885,21 +886,20 @@ nav.navbar.bootsnav .navbar-toggle i {
     box-shadow: 0 10px 20px rgba(21, 19, 19, .2);
 }
 
-/* Flexbox container for image and text */
-.team-content {  /* class name changed to .team-content */
+.team-content {
     display: flex;
     flex-direction: row;
 }
 
 .team-info {
-    flex: 4;  /*占める幅を4に変更 */
+    flex: 4;
     align-items: center;
     justify-content: center;
     text-transform: capitalize;
 }
 
 .team-description {
-    flex: 1;  /*占める幅を1に変更 */
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -955,7 +955,10 @@ nav.navbar.bootsnav .navbar-toggle i {
 /* Slick carousel adjustments */
 .slick-initialized .slick-slide {
     display: block;
-    padding: 40px 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 40px;
+    padding-bottom: 90px;
 }
 
 .slick-slide.slick-cloned {
@@ -976,17 +979,17 @@ nav.navbar.bootsnav .navbar-toggle i {
     opacity: 1;
 }
 
-/* .team-carousel .slick-slide {
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    opacity: 1; 
-    transform: scale(1); 
+.team-carousel .slick-slide {
+    /* transition: transform 0.3s ease, opacity 0.3s ease; */
+    opacity: 1;
+    transform: scale(1);
 }
 
 .team-carousel .slick-center {
-    opacity: 1; 
-    transform: scale(1.1); 
-    padding:10px;
-} */
+    opacity: 1;
+    transform: scale(1.1);
+    /* padding:10px; */
+}
 
 /*.slick-slide*/
 
@@ -1168,6 +1171,18 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 .single-blog-item:hover {
     box-shadow: 0 10px 20px rgba(21, 19, 19, .4);
+}
+
+.blog-slider .slick-slide {
+    /* transition: transform 0.3s ease, opacity 0.3s ease; */
+    opacity: 1;
+    /* transform: scale(1); */
+}
+
+.blog-slider .slick-center {
+    opacity: 1;
+    transform: scale(1);
+    /* padding:10px; */
 }
 
 
@@ -1766,6 +1781,7 @@ textarea {
     background: #f8fafb;
 
 }
+
 .black {
     background: black;
 
@@ -1885,8 +1901,6 @@ textarea {
 
 }
 
-.h2W{
-    color:white !important;
+.h2W {
+    color: white !important;
 }
-
-
