@@ -41,7 +41,7 @@
 </head>
 
 <body>
-    
+
 
     <!--<div class="main-content">-->
     <header id="header-top" class="header-top">
@@ -72,15 +72,11 @@
 
                         </li> --}}
                         <li class="header-top-contact">
-                            <a href="https://www.instagram.com/ibest_technologies/"><i
-                                    class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/ibest_technologies/"><i class="fa fa-instagram"></i></a>
                         </li>
                         <li class="header-top-contact">
-                            <a href="https://www.facebook.com/iBESTtechnologies2021"><i
-                                    class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/iBESTtechnologies2021"><i class="fa fa-facebook"></i></a>
 
-                        </li>
-                        <li class="header-top-contact">
                         </li>
 
                     </ul>
@@ -99,8 +95,7 @@
                 <div class="container">
                     <!-- Start Header Navigation -->
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse"
-                            data-target="#navbar-menu">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                             <i class="fa fa-bars"></i>
                         </button>
                         <img src="assets/images/logo.png" class="Mlogo">
