@@ -58,7 +58,7 @@
                             </a>
                         </li>
                     </ul>
-                </div> 
+                </div>
             </li>
             <li class="head-responsive-right pull-right">
                 <div class="header-top-right">
@@ -99,7 +99,7 @@
                             <i class="fa fa-bars"></i>
                         </button>
                         <img src="assets/images/logo.png" class="Mlogo">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="/">
                             <span class="lowercase">i</span>BEST<span>&nbsp;TECHNOLOGIES</span></a>
                     </div><!--/.navbar-header-->
                     <!-- End Header Navigation -->
@@ -179,12 +179,12 @@
                     <div class="col-md-6 col-sm-6">
                         <div class="single-how-works modbg">
 
-                           <div class="onlytabLSF">
-                            <h2><a>Legacy Software Modernization</a></h2>
-                            <p>
-                                modernize your legacy applications to meet the latest tech standards
-                            </p>
-                           </div>
+                            <div class="onlytabLSF">
+                                <h2><a>Legacy Software Modernization</a></h2>
+                                <p>
+                                    modernize your legacy applications to meet the latest tech standards
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -609,8 +609,9 @@
             <h2 class="cas h2W">Careers</h2>
             <p class="cas"> <span style="color: #87d7fb;">you.</span><span
                     style="color: #d7d6a2;">think</span><span style="color: #ffd130;">(</span><span
-                    style="color: #87d7fb;">problemSolving</span><span style="color: #ffd130;">)</span> <span
-                    style="color: #cecece;">==</span>
+                    style="color: #87d7fb;">problemSolving</span><span style="color: #ffd130;">)</span> 
+                    <span
+                    style="color: #cecece; letter-spacing:1.3px;">==</span>
                 <span style="color:#cd866f ;">'connecting the dots'</span> <span style="color: #b1b1b1;">?</span>
                 <span style="color:#cd866f;">'you are an
                     artisan'</span>
@@ -779,7 +780,7 @@
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="index.html"><span
+                            <a class="navbar-brand" href="/"><span
                                     class="lowercase">i</span>BEST<span>&nbsp;TECHNOLOGIES</span></a>
                         </div><!--/.navbar-header-->
                     </div>
