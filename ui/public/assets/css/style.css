@@ -116,20 +116,6 @@ body {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 600px) {
-    .section-header h2 {
-        font-size: 3.5rem;
-
-    }
-}
-
-@media only screen and (max-width: 1024px) and (min-width: 601px) {
-    .section-header h2 {
-        font-size: 4rem;
-
-    }
-}
-
 .section-header h2 span {
     text-transform: lowercase;
 }
@@ -1990,18 +1976,3 @@ textarea {
     margin-top: 5px;
 }
 
-@media only screen and (max-width: 600px) {
-    .Mlogo {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 1024px) and (min-width: 601px) {
-    .Mlogo {
-        height: 50px;
-        width: 50px;
-        margin-left: -310px;
-        /* padding-top: 20px; */
-        margin-top: -15px;
-    }
-}

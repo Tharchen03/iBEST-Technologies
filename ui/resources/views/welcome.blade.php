@@ -179,10 +179,12 @@
                     <div class="col-md-6 col-sm-6">
                         <div class="single-how-works modbg">
 
+                           <div class="onlytabLSF">
                             <h2><a>Legacy Software Modernization</a></h2>
                             <p>
                                 modernize your legacy applications to meet the latest tech standards
                             </p>
+                           </div>
                         </div>
                     </div>
                 </div>
@@ -810,7 +812,7 @@
                                     class="fa fa-facebook"></i></a>
                             <a href="https://www.instagram.com/ibest_technologies/"><i
                                     class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            {{-- <a href="#"><i class="fa fa-linkedin"></i></a> --}}
                         </div>
                     </div>
                 </div>
