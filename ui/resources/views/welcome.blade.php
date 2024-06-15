@@ -58,7 +58,7 @@
                             </a>
                         </li>
                     </ul>
-                </div>
+                </div> 
             </li>
             <li class="head-responsive-right pull-right">
                 <div class="header-top-right">

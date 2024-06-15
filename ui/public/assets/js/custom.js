@@ -101,39 +101,6 @@ $(document).ready(function () {
 
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-	// Simulate loading time
-	setTimeout(function () {
-		// Hide the loader
-		document.getElementById('loading-container').style.display = 'none';
-		// Show the main content
-		document.querySelector('.main-content').style.display = 'block';
-	}, 3000); // Adjust the time as needed
-});
-
-// document.addEventListener('DOMContentLoaded', function () {
-// 	const mainText = document.querySelector('.main-text');
-// 	mainText.style.opacity = '1';
-
-// 	setTimeout(function () {
-// 		const slogan = document.querySelector('.slogan');
-// 		slogan.style.display = 'block'; // Show the slogan container
-// 		const words = document.querySelectorAll('.slogan .word');
-// 		words.forEach((word, index) => {
-// 			word.style.animationDelay = `${index * 0.5}s`;
-// 		});
-// 	}, 500); 
-
-// 	const words = document.querySelectorAll('.slogan .word');
-// 	const sloganAnimationDuration = words.length * 500;
-
-// 	setTimeout(function () {
-// 		document.getElementById('loading-screen').style.display = 'none';
-// 		document.getElementById('main-content').style.display = 'block';
-// 	}, 500 + sloganAnimationDuration + 500);
-// });
-
-
 $(document).ready(function () {
 	$('.blog-slider').slick({
 		infinite: true,
@@ -158,7 +125,7 @@ $(document).ready(function () {
 				breakpoint: 600,
 				settings: {
 					slidesToShow: 1,
-					// centerMode: true,
+					centerMode: true,
 					slidesToScroll: 1
 				}
 			}
