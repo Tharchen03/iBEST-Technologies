@@ -261,7 +261,7 @@ nav.navbar.bootsnav ul.nav>li>a {
     transition: 0.3s linear;
 }
 nav.navbar.bootsnav ul.nav>li> .contactC {
-    color: white !important;
+    color: #1e92c0 !important;
 }
 
 nav.navbar.bootsnav ul.nav>li>a {
@@ -1105,7 +1105,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .esakor {
-    background-image: url('../images/anouncement/esakor.png');
+    background-image: url('../images/anouncement/nlss.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1121,7 +1121,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .rawS {
-    background-image: url('../images/anouncement/rawstar.png');
+    background-image: url('../images/anouncement/raw.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1129,7 +1129,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .takinW {
-    background-image: url('../images/anouncement/takin.png');
+    background-image: url('../images/anouncement/takinW.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1145,15 +1145,31 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .LG {
-    background-image: url('../images/anouncement/lg.png');
+    background-image: url('../images/anouncement/LG.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
 }
 
-.Tapp {
-    background-image: url('../images/anouncement/tapp.png');
+.ibestI {
+    background-image: url('../images/anouncement/ibestI.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.ibestS {
+    background-image: url('../images/anouncement/ibestS.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.creative {
+    background-image: url('../images/anouncement/creative.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
