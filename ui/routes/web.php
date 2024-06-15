@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\BookingController;
+use App\Http\Controllers\ContactController;
 
 
 /*
@@ -18,4 +18,4 @@ use App\Http\Controllers\BookingController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::post('/submit-booking', [BookingController::class, 'submitBooking'])->name('submit_booking');
+Route::post('/submit-booking', [ContactController::class, 'submitContact'])->name('submitContact');

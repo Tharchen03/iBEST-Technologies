@@ -35,7 +35,7 @@
                                             <td class="content-block"
                                                 style="font-family: 'Roboto', sans-serif; box-sizing: border-box; line-height: 1.5; font-size: 24px; vertical-align: top; margin: 0; padding: 0 0 10px;text-align: center; font-weight: 500;"
                                                 valign="top">
-                                               Booking Request Sent By  <strong>{!! $detail['email_id'] !!}</strong>
+                                                Booking Request Sent By <strong>{!! $detail['email_id'] !!}</strong>
                                             </td>
                                         </tr>
                                         <tr
@@ -43,7 +43,7 @@
                                             <td class="content-block"
                                                 style="font-family: 'Roboto', sans-serif; color: #878a99; line-height: 1.5; box-sizing: border-box; font-size: 15px; vertical-align: top; margin: 0; padding: 0 0 24px; text-align: center;"
                                                 valign="top">
-                                               Full name: <strong>{{ $detail['fullname'] }}</h1></strong>
+                                                Name: <strong>{{ $detail['fullname'] }}</h1></strong>
                                             </td>
                                         </tr>
                                         <tr
@@ -51,34 +51,10 @@
                                             <td class="content-block"
                                                 style="font-family: 'Roboto', sans-serif; color: #878a99; line-height: 1.5; box-sizing: border-box; font-size: 15px; vertical-align: top; margin: 0; padding: 0 0 24px; text-align: center;"
                                                 valign="top">
-                                               Travel Type: <strong>{!! $detail['company'] !!}</strong>
+                                                message: <strong>{!! $detail['message'] !!}</strong>
                                             </td>
                                         </tr>
-                                        <tr
-                                            style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
-                                            <td class="content-block"
-                                                style="font-family: 'Roboto', sans-serif; color: #878a99; line-height: 1.5; box-sizing: border-box; font-size: 15px; vertical-align: top; margin: 0; padding: 0 0 24px; text-align: center;"
-                                                valign="top">
-                                               Mobile Number: <strong>{!! $detail['mobile_no'] !!}</strong>
-                                            </td>
-                                        </tr>
-                                        <tr
-                                            style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
-                                            <td class="content-block"
-                                                style="font-family: 'Roboto', sans-serif; color: #878a99; line-height: 1.5; box-sizing: border-box; font-size: 15px; vertical-align: top; margin: 0; padding: 0 0 24px; text-align: center;"
-                                                valign="top">
-                                               Number of Adults: <strong>{!! $detail['adults'] !!}</strong><br>
-                                               Number of Children: <strong>{!! $detail['children'] !!}</strong>
-                                            </td>
-                                        </tr>
-                                        <tr
-                                            style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
-                                            <td class="content-block"
-                                                style="font-family: 'Roboto', sans-serif; color: #878a99; line-height: 1.5; box-sizing: border-box; font-size: 15px; vertical-align: top; margin: 0; padding: 0 0 24px; text-align: center;"
-                                                valign="top">
-                                                Requirement: <strong>{!! $detail['requirement'] !!}</strong>
-                                            </td>
-                                        </tr>
+
                                         {{-- <tr
                                             style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
                                             <td class="content-block" itemprop="handler" itemscope

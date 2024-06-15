@@ -2,888 +2,929 @@
 <html class="no-js" lang="en">
 
 <head>
-	<!-- meta data -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<!--font-family-->
-	<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-	<link href="https://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet">
+    <!-- meta data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!--font-family-->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet">
 
-	<!-- title of site -->
-	<title>iBEST TECHNOLOGIES</title>
-	<!-- For favicon png -->
-	<link rel="shortcut icon" type="image/icon" href="assets/logo/logo.png" />
-	<!--font-awesome.min.css-->
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-	<!--linear icon css-->
-	<link rel="stylesheet" href="assets/css/linearicons.css">
-	<!--animate.css-->
-	<link rel="stylesheet" href="assets/css/animate.css">
-	<link rel="stylesheet" href="assets/css/button.css">
-	<!--flaticon.css-->
-	<link rel="stylesheet" href="assets/css/flaticon.css">
-	<!--slick.css-->
-	<link rel="stylesheet" href="assets/css/slick.css">
-	<link rel="stylesheet" href="assets/css/slick-theme.css">
-	<!--bootstrap.min.css-->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<!-- bootsnav -->
-	<link rel="stylesheet" href="assets/css/bootsnav.css">
-	<!--style.css-->
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/c.css">
-	<link rel="stylesheet" href="assets/css/icomoon.css">
-	<!--responsive.css-->
-	<link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- title of site -->
+    <title>iBEST TECHNOLOGIES</title>
+    <!-- For favicon png -->
+    <link rel="shortcut icon" type="image/icon" href="assets/logo/logo.png" />
+    <!--font-awesome.min.css-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!--linear icon css-->
+    <link rel="stylesheet" href="assets/css/linearicons.css">
+    <!--animate.css-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/button.css">
+    <!--flaticon.css-->
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <!--slick.css-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="assets/css/bootsnav.css">
+    <!--style.css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/c.css">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <!--responsive.css-->
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
 <body>
-	<!--
-	<div id="loading-screen">
-		<div class="loading-content">
-			<div class="main-text">iBest Technology</div>
-			<div class="slogan" id="slogan">
-				<span class="word">Empowering</span>
-				<span class="word">Innovation,</span>
-				<span class="word">One</span>
-				<span class="word">Solution</span>
-				<span class="word">at</span>
-				<span class="word">a</span>
-				<span class="word">Time</span>
-			</div>
-		</div>
-	</div>
-	-->
+    <!--
+ <div id="loading-screen">
+  <div class="loading-content">
+   <div class="main-text">iBest Technology</div>
+   <div class="slogan" id="slogan">
+    <span class="word">Empowering</span>
+    <span class="word">Innovation,</span>
+    <span class="word">One</span>
+    <span class="word">Solution</span>
+    <span class="word">at</span>
+    <span class="word">a</span>
+    <span class="word">Time</span>
+   </div>
+  </div>
+ </div>
+ -->
 
 
-	<!--
-	<div id="loading-container">
-		<svg height="108px" width="108px" viewBox="0 0 128 128" class="loader">
-			<defs>
-				<clipPath id="loader-eyes">
-					<circle transform="rotate(-40,64,64) translate(0,-56)" r="8" cy="64" cx="64" class="loader__eye1">
-					</circle>
-					<circle transform="rotate(40,64,64) translate(0,-56)" r="8" cy="64" cx="64" class="loader__eye2">
-					</circle>
-				</clipPath>
-				<linearGradient y2="1" x2="0" y1="0" x1="0" id="loader-grad">
-					<stop stop-color="#000" offset="0%"></stop>
-					<stop stop-color="#fff" offset="100%"></stop>
-				</linearGradient>
-				<mask id="loader-mask">
-					<rect fill="url(#loader-grad)" height="128" width="128" y="0" x="0"></rect>
-				</mask>
-			</defs>
-			<g stroke-dasharray="175.93 351.86" stroke-width="12" stroke-linecap="round">
-				<g>
-					<rect clip-path="url(#loader-eyes)" height="64" width="128" fill="hsl(193,90%,50%)"></rect>
-					<g stroke="hsl(193,90%,50%)" fill="none">
-						<circle transform="rotate(180,64,64)" r="56" cy="64" cx="64" class="loader__mouth1"></circle>
-						<circle transform="rotate(0,64,64)" r="56" cy="64" cx="64" class="loader__mouth2"></circle>
-					</g>
-				</g>
-				<g mask="url(#loader-mask)">
-					<rect clip-path="url(#loader-eyes)" height="64" width="128" fill="hsl(223,90%,50%)"></rect>
-					<g stroke="hsl(223,90%,50%)" fill="none">
-						<circle transform="rotate(180,64,64)" r="56" cy="64" cx="64" class="loader__mouth1"></circle>
-						<circle transform="rotate(0,64,64)" r="56" cy="64" cx="64" class="loader__mouth2"></circle>
-					</g>
-				</g>
-			</g>
-		</svg>
-	</div>
-	-->
+    <!--
+ <div id="loading-container">
+  <svg height="108px" width="108px" viewBox="0 0 128 128" class="loader">
+   <defs>
+    <clipPath id="loader-eyes">
+     <circle transform="rotate(-40,64,64) translate(0,-56)" r="8" cy="64" cx="64" class="loader__eye1">
+     </circle>
+     <circle transform="rotate(40,64,64) translate(0,-56)" r="8" cy="64" cx="64" class="loader__eye2">
+     </circle>
+    </clipPath>
+    <linearGradient y2="1" x2="0" y1="0" x1="0" id="loader-grad">
+     <stop stop-color="#000" offset="0%"></stop>
+     <stop stop-color="#fff" offset="100%"></stop>
+    </linearGradient>
+    <mask id="loader-mask">
+     <rect fill="url(#loader-grad)" height="128" width="128" y="0" x="0"></rect>
+    </mask>
+   </defs>
+   <g stroke-dasharray="175.93 351.86" stroke-width="12" stroke-linecap="round">
+    <g>
+     <rect clip-path="url(#loader-eyes)" height="64" width="128" fill="hsl(193,90%,50%)"></rect>
+     <g stroke="hsl(193,90%,50%)" fill="none">
+      <circle transform="rotate(180,64,64)" r="56" cy="64" cx="64" class="loader__mouth1"></circle>
+      <circle transform="rotate(0,64,64)" r="56" cy="64" cx="64" class="loader__mouth2"></circle>
+     </g>
+    </g>
+    <g mask="url(#loader-mask)">
+     <rect clip-path="url(#loader-eyes)" height="64" width="128" fill="hsl(223,90%,50%)"></rect>
+     <g stroke="hsl(223,90%,50%)" fill="none">
+      <circle transform="rotate(180,64,64)" r="56" cy="64" cx="64" class="loader__mouth1"></circle>
+      <circle transform="rotate(0,64,64)" r="56" cy="64" cx="64" class="loader__mouth2"></circle>
+     </g>
+    </g>
+   </g>
+  </svg>
+ </div>
+ -->
 
-	<!--<div class="main-content">-->
-	<header id="header-top" class="header-top">
-		<ul>
-			<li>
-				<div class="header-top-left">
-					<ul>
-						<li class="select-opt">
-							<a href="#" class="navHeader">
-							</a>
-						</li>
-						<li class="select-opt">
-							<a href="#" class="navHeader">
-							</a>
-						</li>
-					</ul>
-				</div>
-			</li>
-			<li class="head-responsive-right pull-right">
-				<div class="header-top-right">
-					<ul>
-						<li class="header-top-contact ">
-							<a href="tel:+97517505657"><i class="fa fa-phone"></i> &nbsp;+975 17505657</a>
-						</li>
+    <!--<div class="main-content">-->
+    <header id="header-top" class="header-top">
+        <ul>
+            <li>
+                <div class="header-top-left">
+                    <ul>
+                        <li class="select-opt">
+                            <a href="#" class="navHeader">
+                            </a>
+                        </li>
+                        <li class="select-opt">
+                            <a href="#" class="navHeader">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="head-responsive-right pull-right">
+                <div class="header-top-right">
+                    <ul>
+                        <li class="header-top-contact ">
+                            <a href="tel:+97517505657"><i class="fa fa-phone"></i> &nbsp;+975 17505657</a>
+                        </li>
 
-						<li class="header-top-contact">
-							<a href="#"><i class="fa fa-linkedin"></i></a>
+                        <li class="header-top-contact">
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
 
-						</li>
-						<li class="header-top-contact">
-							<a href="https://www.instagram.com/ibest_technologies/"><i class="fa fa-instagram"></i></a>
-						</li>
-						<li class="header-top-contact">
-							<a href="https://www.facebook.com/iBESTtechnologies2021"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="header-top-contact">
+                            <a href="https://www.instagram.com/ibest_technologies/"><i
+                                    class="fa fa-instagram"></i></a>
+                        </li>
+                        <li class="header-top-contact">
+                            <a href="https://www.facebook.com/iBESTtechnologies2021"><i
+                                    class="fa fa-facebook"></i></a>
 
-						</li>
-						<li class="header-top-contact">
-						</li>
+                        </li>
+                        <li class="header-top-contact">
+                        </li>
 
-					</ul>
-				</div>
-			</li>
-		</ul>
-	</header><!--/.header-top-->
-	<!--header-top end -->
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </header><!--/.header-top-->
+    <!--header-top end -->
 
-	<!-- top-area Start -->
-	<section class="top-area">
-		<div class="header-area">
-			<!-- Start Navigation -->
-			<nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy" data-minus-value-desktop="70"
-				data-minus-value-mobile="55" data-speed="1000">
-				<div class="container">
-					<!-- Start Header Navigation -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-							<i class="fa fa-bars"></i>
-						</button>
-						<img src="assets/images/logo.png" class="Mlogo">
-						<a class="navbar-brand" href="index.html">
-							<span class="lowercase">i</span>BEST<span>&nbsp;TECHNOLOGIES</span></a>
-					</div><!--/.navbar-header-->
-					<!-- End Header Navigation -->
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-						<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-							<li class=" scroll active"><a href="#home">home</a></li>
-							<li class="scroll"><a href="#services">Services</a></li>
-							<li class="scroll"><a href="#team">team</a></li>
-							<li class="scroll"><a href="#teamStack">Technology stack</a></li>
-							<li class="scroll"><a href="#profile">portfolio</a></li>
-							<li class="scroll"><a href="#career">career</a></li>
-							<li class="scroll"><a href="#contact" class="contactC">contact</a></li>
-						</ul><!--/.nav -->
-					</div><!-- /.navbar-collapse -->
-				</div><!--/.container-->
-			</nav><!--/nav-->
-			<!-- End Navigation -->
-		</div><!--/.header-area-->
-		<div class="clearfix"></div>
-	</section><!-- /.top-area-->
-	<!-- top-area End -->
+    <!-- top-area Start -->
+    <section class="top-area">
+        <div class="header-area">
+            <!-- Start Navigation -->
+            <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy" data-minus-value-desktop="70"
+                data-minus-value-mobile="55" data-speed="1000">
+                <div class="container">
+                    <!-- Start Header Navigation -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <img src="assets/images/logo.png" class="Mlogo">
+                        <a class="navbar-brand" href="index.html">
+                            <span class="lowercase">i</span>BEST<span>&nbsp;TECHNOLOGIES</span></a>
+                    </div><!--/.navbar-header-->
+                    <!-- End Header Navigation -->
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                            <li class=" scroll active"><a href="#home">home</a></li>
+                            <li class="scroll"><a href="#services">Services</a></li>
+                            <li class="scroll"><a href="#team">team</a></li>
+                            <li class="scroll"><a href="#teamStack">Technology stack</a></li>
+                            <li class="scroll"><a href="#profile">portfolio</a></li>
+                            <li class="scroll"><a href="#career">career</a></li>
+                            <li class="scroll"><a href="#contact" class="contactC">contact</a></li>
+                        </ul><!--/.nav -->
+                    </div><!-- /.navbar-collapse -->
+                </div><!--/.container-->
+            </nav><!--/nav-->
+            <!-- End Navigation -->
+        </div><!--/.header-area-->
+        <div class="clearfix"></div>
+    </section><!-- /.top-area-->
+    <!-- top-area End -->
 
-	<!--welcome-hero start -->
-	<!--<section id="home" class="welcome-hero">
-		<div class="container">
-			<div class="welcome-hero-txt">
-				<h2 style="opacity:0;">We are the <span style="color:#1e92c0;">Artisans</span> of the 21<sup
-						class="superscript">st</sup> century</h2>
-			</div>
-		</div>
-	</section>-->
-	<section id="home" class="welcome-hero">
-		<div class="container">
-			<div class="welcome-hero-txt">
-				<h2>We are the <span class="caps">artisans</span> of <span class="typed-text"></span><span
-						class="cursor">&nbsp;</span></h2>
-			</div>
-		</div>
-	</section>
-	<!--/.welcome-hero-->
-	<!--welcome-hero end -->
-
-
-	<!--services start -->
-	<section id="services" class="works grey">
-		<div class="">
-			<div class="section-header">
-				<h2>what we craft</h2>
-			</div><!--/.section-header-->
-			<div class="works-content">
-				<div class="row">
-					<div class="col-md-6 col-sm-6 ">
-						<div class="single-how-works webbg">
-
-							<h2><a >Web Application </a></h2>
-							<p>
-								build highly scalable, reliable and secure web application </p>
-						</div>
-					</div>
-					<div class="col-md-6 col-sm-6">
-						<div class="single-how-works mobilebg">
-							<h2><a >Mobile Application </a></h2>
-							<p>
-								build stunningly beautiful and feature rich mobile apps
-							</p>
-						</div>
-					</div>
-					<div class="col-md-6 col-sm-6">
-						<div class="single-how-works custombg">
-							<h2><a >Custom Software </a></h2>
-							<p>
-								build a highly performant software to meet your business needs
-							</p>
-						</div>
-					</div>
-					<div class="col-md-6 col-sm-6">
-						<div class="single-how-works modbg">
-
-							<h2><a >Legacy Software Modernization</a></h2>
-							<p>
-								modernize your legacy applications to meet the latest tech standards
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!--/.container-->
-	</section><!--/.services-->
-	<!--services end -->
+    <!--welcome-hero start -->
+    <!--<section id="home" class="welcome-hero">
+  <div class="container">
+   <div class="welcome-hero-txt">
+    <h2 style="opacity:0;">We are the <span style="color:#1e92c0;">Artisans</span> of the 21<sup
+      class="superscript">st</sup> century</h2>
+   </div>
+  </div>
+ </section>-->
+    <section id="home" class="welcome-hero">
+        <div class="container">
+            <div class="welcome-hero-txt">
+                <h2>We are the <span class="caps">artisans</span> of <span class="typed-text"></span><span
+                        class="cursor">&nbsp;</span></h2>
+            </div>
+        </div>
+    </section>
+    <!--/.welcome-hero-->
+    <!--welcome-hero end -->
 
 
+    <!--services start -->
+    <section id="services" class="works grey">
+        <div class="">
+            <div class="section-header">
+                <h2>what we craft</h2>
+            </div><!--/.section-header-->
+            <div class="works-content">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 ">
+                        <div class="single-how-works webbg">
 
-	<!--team start -->
-	<section id="team" class="reviews ">
-		<div class="section-header">
-			<h2>Artisans</h2>
-			<p> Meet the artisans of iBEST TECHNOLOGIES</p>
-		</div><!--/.section-header-->
-		<div class="reviews-content">
-			<div class="team-carousel">
-				<div class="single-team-box">
-					<div class="team-img">
-						<img src="assets/images/team/SR.png" alt="clients">
-					</div>
-					<div class="team-description">
-						<div class="team-comment">
-							<div class="team-person">
-								<h3>Sonam Rinchen</h3>
-								<h4>CEO</h4>
-							</div>
-							<p>
-								Dreamer . Technophile . Inquisitive
-							</p>
-						</div><!--/.team-comment-->
-					</div><!--/.team-description-->
-				</div><!--/.single-team-box-->
-				<div class="single-team-box">
-					<div class="team-img">
-						<img src="assets/images/team/sonamT.png" alt="clients">
-					</div>
-					<div class="team-description">
-						<div class="team-comment">
-							<div class="team-person">
-								<h3>Sonam Tobgay</h3>
-								<h4>Director</h4>
-							</div>
-							<p>
-								Thinker . Bibliophile . Footballer
-							</p>
-						</div><!--/.team-comment-->
-					</div><!--/.team-description-->
-				</div><!--/.single-team-box-->
-				<div class="single-team-box">
-					<div class="team-img">
-						<img src="assets/images/team/cheku.png" alt="clients">
-					</div><!--/.team-img-->
-					<div class="team-description">
-						<div class="team-comment">
-							<div class="team-person">
-								<h3>Cheku </h3>
-								<h4>Chief of Technology</h4>
-							</div>
-							<p>
-								Perseverant . Resilient . Futurist
-							</p>
-						</div><!--/.team-comment-->
-					</div><!--/.team-description-->
-				</div><!--/.single-team-box-->
-				<div class="single-team-box">
-					<div class="team-img">
-						<img src="assets/images/team/kinley.png" alt="clients">
-					</div><!--/.team-img-->
-					<div class="team-description">
+                            <h2><a>Web Application </a></h2>
+                            <p>
+                                build highly scalable, reliable and secure web application </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="single-how-works mobilebg">
+                            <h2><a>Mobile Application </a></h2>
+                            <p>
+                                build stunningly beautiful and feature rich mobile apps
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="single-how-works custombg">
+                            <h2><a>Custom Software </a></h2>
+                            <p>
+                                build a highly performant software to meet your business needs
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="single-how-works modbg">
 
-						<div class="team-comment">
-							<div class="team-person">
-								<h3>Kinley Dorji</h3>
-								<h4>Software Developer</h4>
-							</div>
-							<p>
-								Determinant . Creative . Adaptive </p>
-						</div><!--/.team-comment-->
-					</div><!--/.team-description-->
-				</div><!--/.single-team-box-->
-				<div class="single-team-box">
-					<div class="team-img">
-						<img src="assets/images/team/karma.png" alt="clients">
-					</div><!--/.team-img-->
-					<div class="team-description">
-
-						<div class="team-comment">
-							<div class="team-person">
-								<h3>Karma Lhendup</h3>
-								<h4>Software Developer</h4>
-							</div>
-							<p>
-								Analytical . Innovative . Persistent
-							</p>
-						</div><!--/.team-comment-->
-					</div><!--/.team-description-->
-				</div><!--/.single-team-box-->
-				<div class="single-team-box">
-					<div class="team-img">
-						<img src="assets/images/team/pelzang.png" alt="clients">
-					</div><!--/.team-img-->
-					<div class="team-description">
-
-						<div class="team-comment">
-							<div class="team-person">
-								<h3>Thinley Pelzang</h3>
-								<h4>Software Developer</h4>
-							</div>
-							<p>
-								Curious . Outgoing . Versatile </p>
-						</div><!--/.team-comment-->
-					</div><!--/.team-description-->
-				</div><!--/.single-team-box-->
-				<div class="single-team-box">
-					<div class="team-img">
-						<img src="assets/images/team/tshering.png" alt="clients">
-					</div><!--/.team-img-->
-					<div class="team-description">
-
-						<div class="team-comment">
-							<div class="team-person">
-								<h3>Tshering Wangdi</h3>
-								<h4>Software Developer</h4>
-							</div>
-							<p>
-								Resourceful. Collaborative. Innovative
-							</p>
-						</div><!--/.team-comment-->
-					</div><!--/.team-description-->
-				</div><!--/.single-team-box-->
-				<div class="single-team-box">
-					<div class="team-img">
-						<img src="assets/images/team/tharchen.png" alt="clients">
-					</div><!--/.team-img-->
-					<div class="team-description">
-
-						<div class="team-comment">
-							<div class="team-person">
-								<h3>Sherab Tharchen</h3>
-								<h4>Software Developer</h4>
-							</div>
-							<p>
-								Imaginative . Intellectual . Craftsman
-							</p>
-						</div><!--/.team-comment-->
-					</div><!--/.team-description-->
-				</div><!--/.single-team-box-->
-				<div class="single-team-box">
-					<div class="team-img">
-						<img src="assets/images/team/jangchub.png" alt="clients">
-					</div><!--/.team-img-->
-					<div class="team-description">
-
-						<div class="team-comment">
-							<div class="team-person">
-								<h3>Jangchub Dorji</h3>
-								<h4>Software Developer</h4>
-							</div>
-							<p>
-								Resilient . Communicative . Foodie </p>
-						</div><!--/.team-comment-->
-					</div><!--/.team-description-->
-				</div><!--/.single-team-box-->
-				<div class="single-team-box">
-					<div class="team-img">
-						<img src="assets/images/team/nar.png" alt="clients">
-					</div><!--/.team-img-->
-					<div class="team-description">
-
-						<div class="team-comment">
-							<div class="team-person">
-								<h3>Nar Bbr Kharkha</h3>
-								<h4>Software Developer</h4>
-							</div>
-							<p>
-								Coding . Developing . Travelling
-							</p>
-						</div><!--/.team-comment-->
-					</div><!--/.team-description-->
-				</div><!--/.single-team-box-->
-				<div class="single-team-box">
-					<div class="team-img">
-						<img src="assets/images/team/tandin.png" alt="clients">
-					</div><!--/.team-img-->
-					<div class="team-description">
-						<div class="team-comment">
-							<div class="team-person">
-								<h3>Tandin Tshering</h3>
-								<h4>Software Developer</h4>
-							</div>
-							<p>
-								Gamer . Ambitious . Artistic
-							</p>
-						</div><!--/.team-comment-->
-					</div><!--/.team-description-->
-				</div><!--/.single-team-box-->
-
-			</div>
-		</div>
-	</section><!--/.team-->
-	<!--team end -->
-
-	<!--teamstack start -->
-	<section id="teamStack" class="reviews grey">
-		<div class="section-header">
-			<h2>Technology stack</h2>
-			<p> Tools, programming languages and frameworks we are well-versed in.</p>
-		</div><!--/.section-header-->
-	</section>
-	<section class="reviews stackPhone grey">
-		<div class="container teamstackOnlyphone">
-			<div class="list-topics-content">
-				<ul>
-					<li>
-						<div class="single-list-topics-content">
-							<div class="single-list-topics-icon">
-								<i class="icon-document-file-php"></i>
-							</div>
-							<p>PHP</p>
-						</div>
-					</li>
-					<li>
-						<div class="single-list-topics-content">
-							<div class="single-list-topics-icon">
-								<i class="icon-javascript"></i>
-							</div>
-							<p>JavaScript</p>
-						</div>
-					</li>
-					<li>
-						<div class="single-list-topics-content">
-							<div class="single-list-topics-icon">
-								<i class="icon-flutter"></i>
-							</div>
-							<p>Flutter</p>
-						</div>
-					</li>
-					<li>
-						<div class="single-list-topics-content">
-							<div class="single-list-topics-icon">
-								<i class="icon-csharp"></i>
-							</div>
-							<p>C#</p>
-						</div>
-					</li>
-					<li>
-						<div class="single-list-topics-content">
-							<div class="single-list-topics-icon">
-								<i class="icon-node-dot-js"></i>
-							</div>
-							<p>NodeJs</p>
-						</div>
-					</li>
-					<li>
-						<div class="single-list-topics-content">
-							<div class="single-list-topics-icon">
-								<i class="icon-laravel"></i>
-							</div>
-							<p>Laravel</p>
-						</div>
-					</li>
-					<li>
-						<div class="single-list-topics-content">
-							<div class="single-list-topics-icon">
-								<span class="icon-mariadb-icon-svgrepo-com"><span class="path1"></span><span
-										class="path2"></span><span class="path3"></span></span>
-							</div>
-							<p>MariaDB</p>
-						</div>
-					</li>
-					<li>
-						<div class="single-list-topics-content">
-							<div class="single-list-topics-icon">
-								<i class="icon-mongodb"></i>
-							</div>
-							<p>MongoDB</p>
-						</div>
-					</li>
-					<li>
-						<div class="single-list-topics-content">
-							<div class="single-list-topics-icon">
-								<i class="icon-react"></i>
-							</div>
-							<p>React</p>
-						</div>
-					</li>
-					<li>
-						<div class="single-list-topics-content">
-							<div class="single-list-topics-icon">
-								<i class="icon-amazonaws"></i>
-							</div>
-							<p>AWS</p>
-						</div>
-					</li>
-					<li>
-						<div class="single-list-topics-content">
-							<div class="single-list-topics-icon">
-								<i class="icon-docker"></i>
-							</div>
-							<p>Docker</p>
-						</div>
-					</li>
-					<li>
-						<div class="single-list-topics-content">
-							<div class="single-list-topics-icon">
-								<i class="icon-express-svgrepo-com"></i>
-							</div>
-							<p>Express</p>
-						</div>
-					</li>
-					<li>
-						<div class="single-list-topics-content">
-							<div class="single-list-topics-icon">
-								<i class="icon-graphql"></i>
-							</div>
-							<p>GraphQL</p>
-						</div>
-					</li>
-					<li>
-						<div class="single-list-topics-content">
-							<div class="single-list-topics-icon">
-								<i class="icon-unity"></i>
-							</div>
-							<p>Unity</p>
-						</div>
-					</li>
-					<li>
-						<div class="single-list-topics-content">
-							<div class="single-list-topics-icon">
-								<i class="icon-dart"></i>
-							</div>
-							<p>Dart</p>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</section><!--/.team-->
-	<!--teamstack end -->
+                            <h2><a>Legacy Software Modernization</a></h2>
+                            <p>
+                                modernize your legacy applications to meet the latest tech standards
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.container-->
+    </section><!--/.services-->
+    <!--services end -->
 
 
-	<!--profile start -->
-	<section id="profile" class="blog ">
-		<div class="container">
-			<div class="section-header">
-				<h2>our crafts</h2>
-			</div><!--/.section-header-->
-			<div class="blog-content">
-				<div class="row blog-slider">
-					<div class="col-md-4 col-sm-6">
-						<a href="https://www.educareskill.com/">
-							<div class="single-blog-item educare">
-							</div>
-						</a>
 
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<a href="https://esakor.nlcs.gov.bt/">
-							<div class="single-blog-item esakor">
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<a href="https://onebhutan.com/">
-							<div class="single-blog-item oneB">
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<a href="https://play.google.com/store/apps/details?id=com.rawstar.rawstar_app&hl=en">
-							<div class="single-blog-item rawS">
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<a href="https://www.takineducation.bt/">
-							<div class="single-blog-item takinW">
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<a href="https://zerowastebhutan.gov.bt/homepage">
-							<div class="single-blog-item wasteW">
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<a href="https://play.google.com/store/apps/details?id=com.ibesttechnologies.lgapp&hl=en">
-							<div class="single-blog-item LG">
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<a href="https://play.google.com/store/apps/details?id=bt.takineducation&hl=en">
-							<div class="single-blog-item Tapp">
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div><!--/.container-->
-	</section><!--/.profile-->
-	<!--profile end -->
+    <!--team start -->
+    <section id="team" class="reviews ">
+        <div class="section-header">
+            <h2>Artisans</h2>
+            <p> Meet the artisans of iBEST TECHNOLOGIES</p>
+        </div><!--/.section-header-->
+        <div class="reviews-content">
+            <div class="team-carousel">
+                <div class="single-team-box">
+                    <div class="team-img">
+                        <img src="assets/images/team/SR.png" alt="clients">
+                    </div>
+                    <div class="team-description">
+                        <div class="team-comment">
+                            <div class="team-person">
+                                <h3>Sonam Rinchen</h3>
+                                <h4>CEO</h4>
+                            </div>
+                            <p>
+                                Dreamer . Technophile . Inquisitive
+                            </p>
+                        </div><!--/.team-comment-->
+                    </div><!--/.team-description-->
+                </div><!--/.single-team-box-->
+                <div class="single-team-box">
+                    <div class="team-img">
+                        <img src="assets/images/team/sonamT.png" alt="clients">
+                    </div>
+                    <div class="team-description">
+                        <div class="team-comment">
+                            <div class="team-person">
+                                <h3>Sonam Tobgay</h3>
+                                <h4>Director</h4>
+                            </div>
+                            <p>
+                                Thinker . Bibliophile . Footballer
+                            </p>
+                        </div><!--/.team-comment-->
+                    </div><!--/.team-description-->
+                </div><!--/.single-team-box-->
+                <div class="single-team-box">
+                    <div class="team-img">
+                        <img src="assets/images/team/cheku.png" alt="clients">
+                    </div><!--/.team-img-->
+                    <div class="team-description">
+                        <div class="team-comment">
+                            <div class="team-person">
+                                <h3>Cheku </h3>
+                                <h4>Chief of Technology</h4>
+                            </div>
+                            <p>
+                                Perseverant . Resilient . Futurist
+                            </p>
+                        </div><!--/.team-comment-->
+                    </div><!--/.team-description-->
+                </div><!--/.single-team-box-->
+                <div class="single-team-box">
+                    <div class="team-img">
+                        <img src="assets/images/team/kinley.png" alt="clients">
+                    </div><!--/.team-img-->
+                    <div class="team-description">
 
-	<!--Career start -->
-	<section id="career" class="reviews black">
-		<div class="section-header">
-			<h2 class="cas h2W">Careers</h2>
-			<p class="cas"> <span style="color: #87d7fb;">you.</span><span style="color: #d7d6a2;">think</span><span
-					style="color: #ffd130;">(</span><span style="color: #87d7fb;">problemSolving</span><span
-					style="color: #ffd130;">)</span> <span style="color: #cecece;">==</span>
-				<span style="color:#cd866f ;">'connecting the dots'</span> <span style="color: #b1b1b1;">?</span> <span
-					style="color:#cd866f;">'you are an
-					artisan'</span>
-				<span style="color: #b1b1b1;">:</span> <span style="color: #cd866f;">'you are not an
-					artisan'</span><span style="color:#b1b1b1;">;</span>
-			</p>
-		</div>
-		<div class="container">
-			<div class="grid__item theme-2">
-				<!--<button class="action" aria-label="Follow"><svg width="28" height="28" viewBox="0 0 28 28">
-						<path
-							d="M14 6.4a7.6 7.6 0 1 0 0 15.2 7.6 7.6 0 0 0 0-15.2zm0-4a11.6 11.6 0 1 1 0 23.2A11.6 11.6 0 0 1 14 2.4z"
-							fill="currentColor"></path>
-					</svg></button>-->
-				<div class="particles">
-					<!--<canvas class="particles-canvas" width="1" height="1"></canvas>-->
-					<button class="particles-button" aria-label="Button">Find Opportunities!</button>
-				</div>
-			</div>
-		</div>
+                        <div class="team-comment">
+                            <div class="team-person">
+                                <h3>Kinley Dorji</h3>
+                                <h4>Software Developer</h4>
+                            </div>
+                            <p>
+                                Determinant . Creative . Adaptive </p>
+                        </div><!--/.team-comment-->
+                    </div><!--/.team-description-->
+                </div><!--/.single-team-box-->
+                <div class="single-team-box">
+                    <div class="team-img">
+                        <img src="assets/images/team/karma.png" alt="clients">
+                    </div><!--/.team-img-->
+                    <div class="team-description">
 
-	</section>
-	<!--Career end -->
+                        <div class="team-comment">
+                            <div class="team-person">
+                                <h3>Karma Lhendup</h3>
+                                <h4>Software Developer</h4>
+                            </div>
+                            <p>
+                                Analytical . Innovative . Persistent
+                            </p>
+                        </div><!--/.team-comment-->
+                    </div><!--/.team-description-->
+                </div><!--/.single-team-box-->
+                <div class="single-team-box">
+                    <div class="team-img">
+                        <img src="assets/images/team/pelzang.png" alt="clients">
+                    </div><!--/.team-img-->
+                    <div class="team-description">
 
-	<!--client start -->
-	<section id="" class="reviews ">
-		<div class="section-header">
-			<h2>our trusted clients</h2>
-		</div>
-	</section>
-	<section class="reviews ">
-		<div class="container clientOnlyphone">
-			<div class="client-topics-content slick">
-				<ul>
-					<li>
-						<div class="client-list-topics-content">
-							<div class="client-list-topics-icon">
-								<img style="width:125px;height:40px;" src="assets/images/clients/educare.png"
-									alt="Learning Antics Logo">
-							</div>
-							<p class="clienP">EducareSkill</p>
-						</div>
-					</li>
-					<li>
-						<div class="client-list-topics-content">
-							<div class="client-list-topics-icon">
-								<img style="width:80px;height:80px;" src="assets/images/clients/ibeststudio.png"
-									alt="Learning Antics Logo">
-							</div>
-							<p class="clienP">iBEST Studios</p>
-						</div>
-					</li>
-					<li>
-						<div class="client-list-topics-content">
-							<div class="client-list-topics-icon">
-								<img style="width:80px;height:80px;" src="assets/images/clients/esakor.png"
-									alt="Learning Antics Logo">
-							</div>
-							<p class="clienP">NLCS</p>
-						</div>
-					</li>
-					<li>
-						<div class="client-list-topics-content">
-							<div class="client-list-topics-icon">
-								<img style="width:100px;height:35px;" src="assets/images/clients/creativerse.png"
-									alt="Learning Antics Logo">
-							</div>
-							<p class="clienP">Creative Verse</p>
-						</div>
-					</li>
-					<li>
-						<div class="client-list-topics-content">
-							<div class="client-list-topics-icon">
-								<img style="width:70px;height:60px;" src="assets/images/clients/waste.png"
-									alt="Learning Antics Logo">
-							</div>
-							<p class="clienP">Zero Waste Bhutan</p>
-						</div>
-					</li>
-					<li>
-						<div class="client-list-topics-content">
-							<div class="client-list-topics-icon">
-								<img style="width:100px;height:35px;" src="assets/images/clients/oneBhutan.png"
-									alt="Learning Antics Logo">
-							</div>
-							<p class="clienP">One Bhutan</p>
-						</div>
-					</li>
-					<li>
-						<div class="client-list-topics-content">
-							<div class="client-list-topics-icon">
-								<img style="width:100px;height:35px;" src="assets/images/clients/takin.png"
-									alt="Learning Antics Logo">
-							</div>
-							<p class="clienP">Takin Education<br>Consultancy</p>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</section><!--/.team-->
-	<!--client end -->
+                        <div class="team-comment">
+                            <div class="team-person">
+                                <h3>Thinley Pelzang</h3>
+                                <h4>Software Developer</h4>
+                            </div>
+                            <p>
+                                Curious . Outgoing . Versatile </p>
+                        </div><!--/.team-comment-->
+                    </div><!--/.team-description-->
+                </div><!--/.single-team-box-->
+                <div class="single-team-box">
+                    <div class="team-img">
+                        <img src="assets/images/team/tshering.png" alt="clients">
+                    </div><!--/.team-img-->
+                    <div class="team-description">
 
-	<!--contact strat -->
-	<section id="contact" class="subscription">
-		<div class="container">
-			<div class="subscribe-title text-center">
-				<h2>send us your Query</h2>
-			</div>
-			<div class="row">
-				<div class="subscription-input-group">
-					<form id="contactForm" onsubmit="sendEmail(event)">
-						<div class="form-group">
-							<input type="text" class="subscription-input-form" id="name" placeholder="Enter your name"
-								required>
-						</div>
-						<div class="form-group">
-							<input type="email" class="subscription-input-form" id="email" aria-describedby="emailHelp"
-								placeholder="Enter your email" required>
-						</div>
-						<div class="form-group">
-							<textarea class="subscription-input-form" id="message" rows="3"
-								placeholder="Enter your message" required></textarea>
-						</div>
+                        <div class="team-comment">
+                            <div class="team-person">
+                                <h3>Tshering Wangdi</h3>
+                                <h4>Software Developer</h4>
+                            </div>
+                            <p>
+                                Resourceful. Collaborative. Innovative
+                            </p>
+                        </div><!--/.team-comment-->
+                    </div><!--/.team-description-->
+                </div><!--/.single-team-box-->
+                <div class="single-team-box">
+                    <div class="team-img">
+                        <img src="assets/images/team/tharchen.png" alt="clients">
+                    </div><!--/.team-img-->
+                    <div class="team-description">
 
-						<div class="button-captcha-container">
-							<div class="g-recaptcha captchaPhone"
-								data-sitekey="6LcqBvUpAAAAAHeTNv4gitbasAqRC2kIprfgc59Y"></div>
-							<button class="button_test" type="submit">
-								<div class="svg-wrapper-1">
-									<div class="svg-wrapper">
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
-											height="24">
-											<path fill="none" d="M0 0h24v24H0z"></path>
-											<path fill="currentColor"
-												d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
-											</path>
-										</svg>
-									</div>
-								</div>
-								<span>Send message</span>
-							</button>
-						</div>
+                        <div class="team-comment">
+                            <div class="team-person">
+                                <h3>Sherab Tharchen</h3>
+                                <h4>Software Developer</h4>
+                            </div>
+                            <p>
+                                Imaginative . Intellectual . Craftsman
+                            </p>
+                        </div><!--/.team-comment-->
+                    </div><!--/.team-description-->
+                </div><!--/.single-team-box-->
+                <div class="single-team-box">
+                    <div class="team-img">
+                        <img src="assets/images/team/jangchub.png" alt="clients">
+                    </div><!--/.team-img-->
+                    <div class="team-description">
 
-					</form>
-					<div id="messageContainer"></div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--contact end -->
+                        <div class="team-comment">
+                            <div class="team-person">
+                                <h3>Jangchub Dorji</h3>
+                                <h4>Software Developer</h4>
+                            </div>
+                            <p>
+                                Resilient . Communicative . Foodie </p>
+                        </div><!--/.team-comment-->
+                    </div><!--/.team-description-->
+                </div><!--/.single-team-box-->
+                <div class="single-team-box">
+                    <div class="team-img">
+                        <img src="assets/images/team/nar.png" alt="clients">
+                    </div><!--/.team-img-->
+                    <div class="team-description">
 
-	<!--footer start-->
-	<footer id="footer" class="footer">
-		<div class="container">
-			<div class="footer-menu">
-				<div class="row">
-					<div class="col-sm-3">
-						<div class="navbar-header">
-							<a class="navbar-brand" href="index.html"><span
-									class="lowercase">i</span>BEST<span>&nbsp;TECHNOLOGIES</span></a>
-						</div><!--/.navbar-header-->
-					</div>
-					<div class="col-sm-9">
-						<ul class="footer-menu-item">
-							<li class="scroll"><a href="#home">Home</a></li>
-							<li class="scroll"><a href="#services">services</a></li>
-							<li class="scroll"><a href="#team">team</a></li>
-							<li class="scroll"><a href="#teamStack">Technology stack</a></li>
-							<li class="scroll"><a href="#profile">portfolio</a></li>
-							<li class="scroll"><a href="#career">career</a></li>
-							<li class="scroll"><a href="#contact">contact</a></li>
-						</ul><!--/.nav -->
-					</div>
-				</div>
-			</div>
-			<div class="hm-footer-copyright">
-				<div class="row">
-					<div class="col-sm-5">
-						<p>
-							&copy;copyright <a href="/" class="footerH"><span
-									class="lowercase">i</span>BEST TECHNOLOGIES</a>
-						</p>
-					</div>
-					<div class="col-sm-7">
-						<div class="footer-social">
-							<span>
-								&nbsp;Zamdo-Lam, Changzamtog, Thimphu</span>
-							<a href="https://www.facebook.com/iBESTtechnologies2021"><i class="fa fa-facebook"></i></a>
-							<a href="https://www.instagram.com/ibest_technologies/"><i class="fa fa-instagram"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-						</div>
-					</div>
-				</div>
-			</div><!--/.hm-footer-copyright-->
-		</div><!--/.container-->
+                        <div class="team-comment">
+                            <div class="team-person">
+                                <h3>Nar Bbr Kharkha</h3>
+                                <h4>Software Developer</h4>
+                            </div>
+                            <p>
+                                Coding . Developing . Travelling
+                            </p>
+                        </div><!--/.team-comment-->
+                    </div><!--/.team-description-->
+                </div><!--/.single-team-box-->
+                <div class="single-team-box">
+                    <div class="team-img">
+                        <img src="assets/images/team/tandin.png" alt="clients">
+                    </div><!--/.team-img-->
+                    <div class="team-description">
+                        <div class="team-comment">
+                            <div class="team-person">
+                                <h3>Tandin Tshering</h3>
+                                <h4>Software Developer</h4>
+                            </div>
+                            <p>
+                                Gamer . Ambitious . Artistic
+                            </p>
+                        </div><!--/.team-comment-->
+                    </div><!--/.team-description-->
+                </div><!--/.single-team-box-->
 
-		<div id="scroll-Top">
-			<div class="return-to-top">
-				<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title=""
-					data-original-title="Back to Top" aria-hidden="true"></i>
-			</div>
-		</div><!--/.scroll-Top-->
-	</footer><!--/.footer-->
-	<!--footer end-->
-	<!--</div>-->
+            </div>
+        </div>
+    </section><!--/.team-->
+    <!--team end -->
+
+    <!--teamstack start -->
+    <section id="teamStack" class="reviews grey">
+        <div class="section-header">
+            <h2>Technology stack</h2>
+            <p> Tools, programming languages and frameworks we are well-versed in.</p>
+        </div><!--/.section-header-->
+    </section>
+    <section class="reviews stackPhone grey">
+        <div class="container teamstackOnlyphone">
+            <div class="list-topics-content">
+                <ul>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <i class="icon-document-file-php"></i>
+                            </div>
+                            <p>PHP</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <i class="icon-javascript"></i>
+                            </div>
+                            <p>JavaScript</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <i class="icon-flutter"></i>
+                            </div>
+                            <p>Flutter</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <i class="icon-csharp"></i>
+                            </div>
+                            <p>C#</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <i class="icon-node-dot-js"></i>
+                            </div>
+                            <p>NodeJs</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <i class="icon-laravel"></i>
+                            </div>
+                            <p>Laravel</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <span class="icon-mariadb-icon-svgrepo-com"><span class="path1"></span><span
+                                        class="path2"></span><span class="path3"></span></span>
+                            </div>
+                            <p>MariaDB</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <i class="icon-mongodb"></i>
+                            </div>
+                            <p>MongoDB</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <i class="icon-react"></i>
+                            </div>
+                            <p>React</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <i class="icon-amazonaws"></i>
+                            </div>
+                            <p>AWS</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <i class="icon-docker"></i>
+                            </div>
+                            <p>Docker</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <i class="icon-express-svgrepo-com"></i>
+                            </div>
+                            <p>Express</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <i class="icon-graphql"></i>
+                            </div>
+                            <p>GraphQL</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <i class="icon-unity"></i>
+                            </div>
+                            <p>Unity</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <i class="icon-dart"></i>
+                            </div>
+                            <p>Dart</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section><!--/.team-->
+    <!--teamstack end -->
 
 
-	<script src="assets/js/jquery.js"></script>
-	<!--modernizr.min.js-->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-	<!--bootstrap.min.js-->
-	<script src="assets/js/bootstrap.min.js"></script>
-	<!-- bootsnav js -->
-	<script src="assets/js/bootsnav.js"></script>
-	<!--feather.min.js-->
-	<script src="assets/js/feather.min.js"></script>
-	<!-- counter js -->
-	<script src="assets/js/jquery.counterup.min.js"></script>
-	<script src="assets/js/waypoints.min.js"></script>
-	<!--slick.min.js-->
-	<script src="assets/js/slick.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-	<!--Custom JS-->
-	<script src="assets/js/custom.js"></script>
-	<script src="assets/js/contact.js"></script>
-	<script src="assets/js/career.js"></script>
-	<script src="server.js"></script>
-	<script src="https://example.com/fontawesome/v6.5.2/js/fontawesome.js" data-auto-replace-svg="nest"></script>
-	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-	</script>
+    <!--profile start -->
+    <section id="profile" class="blog ">
+        <div class="container">
+            <div class="section-header">
+                <h2>our crafts</h2>
+            </div><!--/.section-header-->
+            <div class="blog-content">
+                <div class="row blog-slider">
+                    <div class="col-md-4 col-sm-6">
+                        <a href="https://www.educareskill.com/">
+                            <div class="single-blog-item educare">
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <a href="https://esakor.nlcs.gov.bt/">
+                            <div class="single-blog-item esakor">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <a href="https://onebhutan.com/">
+                            <div class="single-blog-item oneB">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <a href="https://play.google.com/store/apps/details?id=com.rawstar.rawstar_app&hl=en">
+                            <div class="single-blog-item rawS">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <a href="https://www.takineducation.bt/">
+                            <div class="single-blog-item takinW">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <a href="https://zerowastebhutan.gov.bt/homepage">
+                            <div class="single-blog-item wasteW">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <a href="https://play.google.com/store/apps/details?id=com.ibesttechnologies.lgapp&hl=en">
+                            <div class="single-blog-item LG">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <a href="https://play.google.com/store/apps/details?id=bt.takineducation&hl=en">
+                            <div class="single-blog-item Tapp">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.container-->
+    </section><!--/.profile-->
+    <!--profile end -->
+
+    <!--Career start -->
+    <section id="career" class="reviews black">
+        <div class="section-header">
+            <h2 class="cas h2W">Careers</h2>
+            <p class="cas"> <span style="color: #87d7fb;">you.</span><span
+                    style="color: #d7d6a2;">think</span><span style="color: #ffd130;">(</span><span
+                    style="color: #87d7fb;">problemSolving</span><span style="color: #ffd130;">)</span> <span
+                    style="color: #cecece;">==</span>
+                <span style="color:#cd866f ;">'connecting the dots'</span> <span style="color: #b1b1b1;">?</span>
+                <span style="color:#cd866f;">'you are an
+                    artisan'</span>
+                <span style="color: #b1b1b1;">:</span> <span style="color: #cd866f;">'you are not an
+                    artisan'</span><span style="color:#b1b1b1;">;</span>
+            </p>
+        </div>
+        <div class="container">
+            <div class="grid__item theme-2">
+                <!--<button class="action" aria-label="Follow"><svg width="28" height="28" viewBox="0 0 28 28">
+      <path
+       d="M14 6.4a7.6 7.6 0 1 0 0 15.2 7.6 7.6 0 0 0 0-15.2zm0-4a11.6 11.6 0 1 1 0 23.2A11.6 11.6 0 0 1 14 2.4z"
+       fill="currentColor"></path>
+     </svg></button>-->
+                <div class="particles">
+                    <!--<canvas class="particles-canvas" width="1" height="1"></canvas>-->
+                    <button class="particles-button" aria-label="Button">Find Opportunities!</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--Career end -->
+
+    <!--client start -->
+    <section id="" class="reviews ">
+        <div class="section-header">
+            <h2>our trusted clients</h2>
+        </div>
+    </section>
+    <section class="reviews ">
+        <div class="container clientOnlyphone">
+            <div class="client-topics-content slick">
+                <ul>
+                    <li>
+                        <div class="client-list-topics-content">
+                            <div class="client-list-topics-icon">
+                                <img style="width:125px;height:40px;" src="assets/images/clients/educare.png"
+                                    alt="Learning Antics Logo">
+                            </div>
+                            <p class="clienP">EducareSkill</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="client-list-topics-content">
+                            <div class="client-list-topics-icon">
+                                <img style="width:80px;height:80px;" src="assets/images/clients/ibeststudio.png"
+                                    alt="Learning Antics Logo">
+                            </div>
+                            <p class="clienP">iBEST Studios</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="client-list-topics-content">
+                            <div class="client-list-topics-icon">
+                                <img style="width:80px;height:80px;" src="assets/images/clients/esakor.png"
+                                    alt="Learning Antics Logo">
+                            </div>
+                            <p class="clienP">NLCS</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="client-list-topics-content">
+                            <div class="client-list-topics-icon">
+                                <img style="width:100px;height:35px;" src="assets/images/clients/creativerse.png"
+                                    alt="Learning Antics Logo">
+                            </div>
+                            <p class="clienP">Creative Verse</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="client-list-topics-content">
+                            <div class="client-list-topics-icon">
+                                <img style="width:70px;height:60px;" src="assets/images/clients/waste.png"
+                                    alt="Learning Antics Logo">
+                            </div>
+                            <p class="clienP">Zero Waste Bhutan</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="client-list-topics-content">
+                            <div class="client-list-topics-icon">
+                                <img style="width:100px;height:35px;" src="assets/images/clients/oneBhutan.png"
+                                    alt="Learning Antics Logo">
+                            </div>
+                            <p class="clienP">One Bhutan</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="client-list-topics-content">
+                            <div class="client-list-topics-icon">
+                                <img style="width:100px;height:35px;" src="assets/images/clients/takin.png"
+                                    alt="Learning Antics Logo">
+                            </div>
+                            <p class="clienP">Takin Education<br>Consultancy</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section><!--/.team-->
+    <!--client end -->
+
+    <!--contact strat -->
+    <section id="contact" class="subscription">
+        <div class="container">
+            <div class="subscribe-title text-center">
+                <h2>send us your Query</h2>
+            </div>
+            <div class="row">
+                <div class="subscription-input-group">
+                    <form id="" {{-- onsubmit="sendEmail(event)" --}} action="{{ route('submitContact') }}" method="POST">
+                        @csrf
+
+                        <div class="form-group">
+                            <input type="text" class="subscription-input-form" id="name"
+                                placeholder="Enter your name" name="fullname" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="subscription-input-form" id="email"
+                                aria-describedby="emailHelp" placeholder="Enter your email" name="email_id" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="subscription-input-form" id="message" rows="3" placeholder="Enter your message"
+                                name="message" required></textarea>
+                        </div>
+
+                        <div class="button-captcha-container">
+                            <div class="g-recaptcha captchaPhone"
+                                data-sitekey="6LcqBvUpAAAAAHeTNv4gitbasAqRC2kIprfgc59Y">
+                                @if ($errors->has('g-recaptcha-response'))
+                                    <div>
+                                        <small class="text-danger">
+                                            This field is required
+                                        </small>
+                                    </div>
+                                @endif
+                            </div>
+                            <button class="button_test" type="submit">
+                                <div class="svg-wrapper-1">
+                                    <div class="svg-wrapper">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                            height="24">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path fill="currentColor"
+                                                d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span>Send message</span>
+                            </button>
+                        </div>
+                    </form>
+                    <div id="messageContainer"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact end -->
+
+    <!--footer start-->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-menu">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="index.html"><span
+                                    class="lowercase">i</span>BEST<span>&nbsp;TECHNOLOGIES</span></a>
+                        </div><!--/.navbar-header-->
+                    </div>
+                    <div class="col-sm-9">
+                        <ul class="footer-menu-item">
+                            <li class="scroll"><a href="#home">Home</a></li>
+                            <li class="scroll"><a href="#services">services</a></li>
+                            <li class="scroll"><a href="#team">team</a></li>
+                            <li class="scroll"><a href="#teamStack">Technology stack</a></li>
+                            <li class="scroll"><a href="#profile">portfolio</a></li>
+                            <li class="scroll"><a href="#career">career</a></li>
+                            <li class="scroll"><a href="#contact">contact</a></li>
+                        </ul><!--/.nav -->
+                    </div>
+                </div>
+            </div>
+            <div class="hm-footer-copyright">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <p>
+                            &copy;copyright <a href="/" class="footerH"><span class="lowercase">i</span>BEST
+                                TECHNOLOGIES</a>
+                        </p>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="footer-social">
+                            <span>
+                                &nbsp;Zamdo-Lam, Changzamtog, Thimphu</span>
+                            <a href="https://www.facebook.com/iBESTtechnologies2021"><i
+                                    class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/ibest_technologies/"><i
+                                    class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.hm-footer-copyright-->
+        </div><!--/.container-->
+
+        <div id="scroll-Top">
+            <div class="return-to-top">
+                <i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top"
+                    title="" data-original-title="Back to Top" aria-hidden="true"></i>
+            </div>
+        </div><!--/.scroll-Top-->
+
+        @if (session('success'))
+            <script>
+                Swal.fire({
+                    position: 'bottom-end',
+                    icon: 'success',
+                    title: '{{ session('success') }}',
+                    showConfirmButton: false,
+                    timer: 2500
+                });
+            </script>
+        @endif
+
+        @if (session('error'))
+            <script>
+                Swal.fire({
+                    position: 'bottom-end',
+                    icon: 'error',
+                    title: '{{ session('error') }}',
+                    showConfirmButton: false,
+                    timer: 2500
+                });
+            </script>
+        @endif
+    </footer><!--/.footer-->
+    <!--footer end-->
+    <!--</div>-->
+
+
+    <script src="assets/js/jquery.js"></script>
+    <!--modernizr.min.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!--bootstrap.min.js-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- bootsnav js -->
+    <script src="assets/js/bootsnav.js"></script>
+    <!--feather.min.js-->
+    <script src="assets/js/feather.min.js"></script>
+    <!-- counter js -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <!--slick.min.js-->
+    <script src="assets/js/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!--Custom JS-->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/career.js"></script>
+    <script src="server.js"></script>
+    <script src="https://example.com/fontawesome/v6.5.2/js/fontawesome.js" data-auto-replace-svg="nest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    {{-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> --}}
+    {!! htmlScripttagJsApi() !!}
+
+    </script>
 </body>
 
 </html>
