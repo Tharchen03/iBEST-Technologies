@@ -583,19 +583,19 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-6">
-                        <a href="https://play.google.com/store/apps/details?id=bt.takineducation&hl=en">
+                        <a href="https://www.ibestbhutan.com/">
                             <div class="single-blog-item ibestI">
                             </div>
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-6">
-                        <a href="https://play.google.com/store/apps/details?id=bt.takineducation&hl=en">
+                        <a href="https://www.ibeststudios.com/">
                             <div class="single-blog-item ibestS">
                             </div>
                         </a>
                     </div>
                     <div class="col-md-4 col-sm-6">
-                        <a href="https://play.google.com/store/apps/details?id=bt.takineducation&hl=en">
+                        <a href="https://creativerse.biz/">
                             <div class="single-blog-item creative">
                             </div>
                         </a>
