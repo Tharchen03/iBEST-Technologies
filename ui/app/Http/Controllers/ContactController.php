@@ -9,7 +9,7 @@ class ContactController extends Controller
 {
     public function submitContact(Request $request)
     {
-        $toEmail = 'cocodon098@gmail.com';
+        $toEmail = 'info@ibesttechoologies.bt';
         $request->validate([
             'g-recaptcha-response' => 'required',
             // Other form validation rules

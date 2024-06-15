@@ -67,10 +67,10 @@
                             <a href="tel:+97517505657"><i class="fa fa-phone"></i> &nbsp;+975 17505657</a>
                         </li>
 
-                        <li class="header-top-contact">
+                        {{-- <li class="header-top-contact">
                             <a href="#"><i class="fa fa-linkedin"></i></a>
 
-                        </li>
+                        </li> --}}
                         <li class="header-top-contact">
                             <a href="https://www.instagram.com/ibest_technologies/"><i
                                     class="fa fa-instagram"></i></a>
@@ -864,7 +864,6 @@
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/contact.js"></script>
     <script src="assets/js/career.js"></script>
-    <script src="server.js"></script>
     <script src="https://example.com/fontawesome/v6.5.2/js/fontawesome.js" data-auto-replace-svg="nest"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     {{-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> --}}
