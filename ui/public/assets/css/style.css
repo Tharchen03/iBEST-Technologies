@@ -321,6 +321,12 @@ nav.navbar.bootsnav .navbar-toggle i {
     color: #1e92c0;
 }
 
+.Mlogo {
+    height: 4vw;  /* Adjust height to be 10% of the viewport width */
+    width: 4vw;   /* Adjust width to be 10% of the viewport width */
+    margin-left: calc(-20vw); /* Adjust left margin relative to the viewport width */
+    margin-top: 0vw; /* Adjust top margin relative to the viewport width */
+}
 /*.navbar-toggle */
 
 /*-------------------------------------
@@ -1957,13 +1963,7 @@ textarea {
     }
 }
 
-.Mlogo {
-    height: 75px;
-    width: 75px;
-    margin-left: -330px;
-    /* padding-top: 20px; */
-    margin-top: 5px;
-}
+
 
 
 .BLOG {
