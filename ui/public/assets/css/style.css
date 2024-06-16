@@ -1206,6 +1206,10 @@ nav.navbar.bootsnav .navbar-toggle i {
     /* padding:10px; */
 }
 
+.BLOG a{
+    padding:0px !important;
+}
+
 
 /*-------------------------------------
         11. Subscribe

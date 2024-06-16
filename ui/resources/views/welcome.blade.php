@@ -536,62 +536,62 @@
             </div><!--/.section-header-->
             <div class="blog-content">
                 <div class="row blog-slider">
-                    <div class="col-md-4 col-sm-6">
-                        <a href="https://www.educareskill.com/">
+                    <div class="col-md-4 col-sm-6 BLOG">
+                        <a href="https://www.educareskill.com/" >
                             <div class="single-blog-item educare">
                             </div>
                         </a>
 
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 BLOG">
                         <a href="https://esakor.nlcs.gov.bt/">
                             <div class="single-blog-item esakor">
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 BLOG">
                         <a href="https://onebhutan.com/">
                             <div class="single-blog-item oneB">
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 BLOG">
                         <a href="https://play.google.com/store/apps/details?id=com.rawstar.rawstar_app&hl=en">
                             <div class="single-blog-item rawS">
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 BLOG">
                         <a href="https://www.takineducation.bt/">
                             <div class="single-blog-item takinW">
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 BLOG">
                         <a href="https://zerowastebhutan.gov.bt/homepage">
                             <div class="single-blog-item wasteW">
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 BLOG">
                         <a href="https://play.google.com/store/apps/details?id=com.ibesttechnologies.lgapp&hl=en">
                             <div class="single-blog-item LG">
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 BLOG">
                         <a href="https://www.ibestbhutan.com/">
                             <div class="single-blog-item ibestI">
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 BLOG">
                         <a href="https://www.ibeststudios.com/">
                             <div class="single-blog-item ibestS">
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 BLOG">
                         <a href="https://creativerse.biz/">
                             <div class="single-blog-item creative">
                             </div>
