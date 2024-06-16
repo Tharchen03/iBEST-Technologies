@@ -15,7 +15,6 @@ $(document).ready(function () {
 		return false;
 	});
 
-
 	// 2. slick carousel
 	$(".team-carousel").slick({
 		infinite: true,
@@ -65,29 +64,6 @@ $(document).ready(function () {
 		]
 	});
 
-
-
-	// 3. welcome animation support
-
-	// $(window).load(function () {
-	// 	$(".welcome-hero-txt h2,.welcome-hero-txt p").removeClass("animated fadeInUp").css({
-	// 		'opacity': '0'
-	// 	});
-	// 	$(".welcome-hero-serch-box").removeClass("animated fadeInDown").css({
-	// 		'opacity': '0'
-	// 	});
-	// });
-
-	// $(window).on('load', function () {
-	// 	$(".welcome-hero-txt h2 ").addClass("line-1 anim-typewriter").css({
-	// 		'opacity': '1'
-	// 	})
-	// });
-	// 	$(".welcome-hero-serch-box").addClass("animated fadeInDown").css({
-	// 		'opacity': '0'
-	// 	});
-	// });
-
 	// 4. feather icon
 	feather.replace();
 
@@ -126,7 +102,9 @@ $(document).ready(function () {
 				settings: {
 					slidesToShow: 1,
 					centerMode: true,
-					slidesToScroll: 1
+					slidesToScroll: 1,
+                    centerPadding: '10px',
+
 				}
 			}
 		]
@@ -169,7 +147,7 @@ $(document).ready(function () {
 		autoplay: true,
 		autoplaySpeed: 2000,
 		responsive: [{
-				breakpoint: 1024, // Tablet breakpoint
+				breakpoint: 1024, 
 				settings: {
 					slidesToShow: 3,
 					slidesToScroll: 1,
@@ -200,7 +178,7 @@ const cursorSpan = document.querySelector(".cursor");
 const textArray = ["the 21st century.", "the digital age."];
 const typingDelay = 200;
 const erasingDelay = 100;
-const newTextDelay = 2000; // Delay between current and next text
+const newTextDelay = 2000; 
 let textArrayIndex = 0;
 let charIndex = 0;
 
@@ -230,6 +208,6 @@ function erase() {
 	}
 }
 
-document.addEventListener("DOMContentLoaded", function () { // On DOM Load initiate the effect
+document.addEventListener("DOMContentLoaded", function () { 
 	if (textArray.length) setTimeout(type, newTextDelay + 250);
 });

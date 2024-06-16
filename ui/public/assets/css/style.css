@@ -188,9 +188,9 @@ body {
 /*.select-opt*/
 
 .header-top-right ul li a {
-    color: #a7b0ba;
+    color: black;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 
@@ -246,7 +246,8 @@ nav.navbar.bootsnav ul.nav>li>a {
     -o-transition: 0.3s linear;
     transition: 0.3s linear;
 }
-nav.navbar.bootsnav ul.nav>li> .contactC {
+
+nav.navbar.bootsnav ul.nav>li>.contactC {
     color: #1e92c0 !important;
 }
 
@@ -954,7 +955,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     color: #8d939e;
     font-size: 14px;
     font-weight: 300;
-    margin-top: 10px;
+    margin-top: 3px;
 }
 
 /* Slick carousel adjustments */
@@ -1206,8 +1207,8 @@ nav.navbar.bootsnav .navbar-toggle i {
     /* padding:10px; */
 }
 
-.BLOG a{
-    padding:0px !important;
+.BLOG a {
+    padding: 0px !important;
 }
 
 
@@ -1599,31 +1600,6 @@ textarea {
     text-transform: uppercase;
 }
 
-@media only screen and (max-width: 600px) {
-    .teamstackOnlyphone {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: 90px;
-        margin-left: 80px;
-    }
-}
-
-@media only screen and (max-width: 1024px) and (min-width: 601px) {
-    .teamstackOnlyphone {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: 0px;
-        /* margin-left: 60px; */
-    }
-}
-
-
-@media only screen and (max-width: 600px) {
-    .stackPhone {
-        margin-top: -170px;
-    }
-}
-
 .single-blog-item {
     padding: 10px;
 }
@@ -1980,3 +1956,7 @@ textarea {
     margin-top: 5px;
 }
 
+
+.BLOG {
+    margin-left: -20px;
+}

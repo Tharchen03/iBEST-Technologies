@@ -66,10 +66,8 @@
                         <li class="header-top-contact ">
                             <a href="tel:+97517505657"><i class="fa fa-phone"></i> &nbsp;+975 17505657</a>
                         </li>
-
                         {{-- <li class="header-top-contact">
                             <a href="#"><i class="fa fa-linkedin"></i></a>
-
                         </li> --}}
                         <li class="header-top-contact">
                             <a href="https://www.instagram.com/ibest_technologies/"><i class="fa fa-instagram"></i></a>
@@ -537,11 +535,10 @@
             <div class="blog-content">
                 <div class="row blog-slider">
                     <div class="col-md-4 col-sm-6 BLOG">
-                        <a href="https://www.educareskill.com/" >
+                        <a >
                             <div class="single-blog-item educare">
                             </div>
                         </a>
-
                     </div>
                     <div class="col-md-4 col-sm-6 BLOG">
                         <a href="https://esakor.nlcs.gov.bt/">
@@ -607,7 +604,7 @@
     <section id="career" class="reviews black">
         <div class="section-header">
             <h2 class="cas h2W">Careers</h2>
-            <p class="cas"> <span style="color: #87d7fb;">you.</span><span
+            <p class="cas Pcas"> <span style="color: #87d7fb;">you.</span><span
                     style="color: #d7d6a2;">think</span><span style="color: #ffd130;">(</span><span
                     style="color: #87d7fb;">problemSolving</span><span style="color: #ffd130;">)</span> 
                     <span
@@ -642,7 +639,7 @@
             <h2>our trusted clients</h2>
         </div>
     </section>
-    <section class="reviews ">
+    <section class="reviews reviewsP">
         <div class="container clientOnlyphone">
             <div class="client-topics-content slick">
                 <ul>

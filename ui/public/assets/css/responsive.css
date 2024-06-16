@@ -93,7 +93,7 @@
     }
 
     .footer-menu ul.footer-menu-item li a {
-        padding-left: 15px;
+        padding-left: 10px;
     }
 }
 
@@ -203,7 +203,14 @@
 
 /*max-width:767px*/
 
-@media screen and (max-width: 660px) {}
+@media screen and (max-width: 660px) {
+
+    .single-how-works,
+    .single-blog-item {
+        max-width: 100%;
+        margin: 0;
+    }
+}
 
 /*max-width:660px*/
 
@@ -408,14 +415,17 @@
     .section-header p {
         font-size: 2.1rem;
         font-weight: 300;
+        padding: 30px;
     }
 }
 
 /* section-header */
 
-/*subscribe-title*/
-@media only screen and (max-width: 600px) {
 
+
+/*subscribe-title*/
+
+@media only screen and (max-width: 600px) {
     .subscribe-title {
         margin-bottom: 52px;
     }
@@ -432,10 +442,14 @@
         font-weight: 500;
         margin-top: 28px;
     }
+
+    .subscription {
+        background: #f8fafb;
+        padding: 70px 0;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 601px) {
-
     .subscribe-title {
         margin-bottom: 52px;
     }
@@ -452,96 +466,353 @@
         font-weight: 500;
         margin-top: 28px;
     }
+
+    .subscription {
+        padding: 100px 0;
+    }
 }
 
 /*subscribe-title*/
-@media only screen and (max-width: 600px) {
 
-   
-.col-lg-1,
-.col-lg-10,
-.col-lg-11,
-.col-lg-12,
-.col-lg-2,
-.col-lg-3,
-.col-lg-4,
-.col-lg-5,
-.col-lg-6,
-.col-lg-7,
-.col-lg-8,
-.col-lg-9,
-.col-md-1,
-.col-md-10,
-.col-md-11,
-.col-md-12,
-.col-md-2,
-.col-md-3,
-.col-md-4,
-.col-md-5,
-.col-md-6,
-.col-md-7,
-.col-md-8,
-.col-md-9,
-.col-sm-1,
-.col-sm-10,
-.col-sm-11,
-.col-sm-12,
-.col-sm-2,
-.col-sm-3,
-.col-sm-4,
-.col-sm-5,
-.col-sm-6,
-.col-sm-7,
-.col-sm-8,
-.col-sm-9,
-.col-xs-1,
-.col-xs-10,
-.col-xs-11,
-.col-xs-12,
-.col-xs-2,
-.col-xs-3,
-.col-xs-4,
-.col-xs-5,
-.col-xs-6,
-.col-xs-7,
-.col-xs-8,
-.col-xs-9 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 0;
-    padding-left: 0;
-}
-}
 
-@media only screen and (max-width: 1024px) and (min-width: 601px) {
-
-    /* .col-sm-6, .col-md-6    {
-    padding-right: none !important;
-    padding-left: none !important
-    } */
-
-}
 
 
 /*services-title*/
 
-   
-/*services-title*/
-
-
-
-/* blog-header */
-
 @media only screen and (max-width: 600px) {
-    .single-blog-item {
-        padding: 0;
+
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-xs-1,
+    .col-xs-10,
+    .col-xs-11,
+    .col-xs-12,
+    .col-xs-2,
+    .col-xs-3,
+    .col-xs-4,
+    .col-xs-5,
+    .col-xs-6,
+    .col-xs-7,
+    .col-xs-8,
+    .col-xs-9 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .works {
+        padding: 60px 0 35px 0;
     }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 601px) {
-    .single-blog-item {
-        padding: 0;
+
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-xs-1,
+    .col-xs-10,
+    .col-xs-11,
+    .col-xs-12,
+    .col-xs-2,
+    .col-xs-3,
+    .col-xs-4,
+    .col-xs-5,
+    .col-xs-6,
+    .col-xs-7,
+    .col-xs-8,
+    .col-xs-9 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 7px;
+        padding-left: 0;
+        padding-bottom: 0px;
+        margin-bottom: -25px;
+    }
+
+    .works {
+        padding: 75px 0 75px 0;
+    }
+
+}
+
+/*services-title*/
+
+
+
+/* welcome-header */
+
+@media only screen and (max-width: 600px) {
+    .welcome-hero {
+        /* background: url(../images/welcome-hero/net.png)no-repeat; */
+        height: 500px;
+    }
+
+    .welcome-hero-txt {
+        padding-top: 110px;
     }
 }
 
-/* blog-header */
+@media only screen and (max-width: 1024px) and (min-width: 601px) {
+    .welcome-hero {
+        /* background: url(../images/welcome-hero/net.png)no-repeat; */
+        height: 650px;
+    }
+}
+
+/* welcome-header */
+
+
+/* team- */
+
+@media only screen and (max-width: 600px) {
+    .reviews {
+        padding: 60px 0 55px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 601px) {
+    .reviews {
+        padding: 75px 0 60px;
+    }
+
+    .slick-initialized .slick-slide {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/* team- */
+
+
+/* crafts- */
+
+@media only screen and (max-width: 600px) {
+    .blog {
+        padding: 60px 0 0px;
+    }
+
+    .BLOG {
+        margin-left: -1px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 601px) {
+    .blog {
+        padding: 80px 0 60px;
+    }
+
+    .slick-dots {
+        bottom: -5px !important;
+    }
+
+}
+
+/* crafts- */
+
+
+/* client- */
+
+@media only screen and (max-width: 600px) {
+    .reviewsP {
+        padding: 85px 0 0 !important;
+        margin-bottom: -130px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 601px) {
+    .reviewsP {
+        margin-bottom: -140px;
+    }
+}
+
+/* client- */
+
+
+/* footer- */
+
+@media only screen and (max-width: 600px) {
+    .footer-menu .row {
+        /* margin-right: 10px !important; */
+        margin-left: -9px !important;
+    }
+
+    .footer-menu {
+        padding: 20px 0 0;
+    }
+
+    .hm-footer-copyright {
+        padding: 25px 8px 5px;
+        border-top: 1px solid #e1e5eb;
+    }
+
+    .footer-social {
+        margin-top: -5px;
+    }
+
+    #scroll-Top .return-to-top {
+        right: 10px;
+        bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 601px) {
+    .footer-menu .row .col-sm-3 {
+        margin-bottom: 0px !important;
+    }
+
+    .navbar-header a.navbar-brand,
+    .navbar-header a.navbar-brand:hover,
+    .navbar-header a.navbar-brand:focus {
+        font-size: 16px;
+        font-weight: 700;
+        margin-left: 5px !important;
+    }
+
+    .footer-menu ul.footer-menu-item li a {
+        font-size: 12px;
+    }
+
+    .hm-footer-copyright {
+        padding: 25px 0 0 40px;
+    }
+
+    .subscribe-title p {
+        font-size: 14px;
+        margin-top: -14px;
+    }
+
+    .hm-footer-copyright p,
+    .hm-footer-copyright p a {
+        margin-top: 3px;
+    }
+
+    #scroll-Top .return-to-top {
+        right: 10px;
+        bottom: 45px;
+    }
+}
+
+/* footer- */
+
+
+/* carrers- */
+
+@media only screen and (max-width: 600px) {
+    .Pcas {
+        padding-left: 25px !important;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 601px) {
+    .Pcas {
+        padding-left: 25px !important;
+        text-align: left;
+    }
+}
+
+/* carrers- */
+
+
+/* stack- */
+
+
+@media only screen and (max-width: 600px) {
+    .teamstackOnlyphone {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 90px;
+        margin-left: 80px;
+    }
+
+    .stackPhone {
+        margin-top: -170px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 601px) {
+    .teamstackOnlyphone {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 0px;
+        /* margin-left: 60px; */
+    }
+
+    .stackPhone {
+        margin-top: -0px;
+    }
+}
+
+
+
+/* stack- */
