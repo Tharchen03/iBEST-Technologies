@@ -11,7 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/sf-mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <!-- title of site -->
     <title>iBEST TECHNOLOGIES</title>
     <!-- For favicon png -->
@@ -38,13 +40,14 @@
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <!--responsive.css-->
     <link rel="stylesheet" href="assets/css/responsive.css">
+
 </head>
 
 <body>
 
 
     <!--<div class="main-content">-->
-    <header id="header-top" class="header-top">
+    <header id="header-top" class="header-top fontH">
         <ul>
             <li>
                 <div class="header-top-left">
@@ -85,12 +88,12 @@
     <!--header-top end -->
 
     <!-- top-area Start -->
-    <section class="top-area">
+    <section class="top-area fontH">
         <div class="header-area">
             <!-- Start Navigation -->
             <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy" data-minus-value-desktop="70"
                 data-minus-value-mobile="55" data-speed="1000">
-                <div class="container">
+                <div class="container FontNav">
                     <!-- Start Header Navigation -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
@@ -771,7 +774,7 @@
     <!--contact end -->
 
     <!--footer start-->
-    <footer id="footer" class="footer">
+    <footer id="footer" class="footer fontH">
         <div class="container">
             <div class="footer-menu">
                 <div class="row">

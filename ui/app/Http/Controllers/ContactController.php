@@ -16,7 +16,7 @@ class ContactController extends Controller
         ]);
 
         $success = send_contact(
-            $toEmail, 'Booking Request',
+            $toEmail, 'contact Request',
             [
                 'fullname' => $request->input('fullname'),
                 'email_id' => $request->input('email_id'),

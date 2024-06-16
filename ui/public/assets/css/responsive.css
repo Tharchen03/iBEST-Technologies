@@ -791,12 +791,25 @@
     .teamstackOnlyphone {
         padding-right: 15px;
         padding-left: 15px;
-        margin-right: 90px;
-        margin-left: 80px;
+        margin-left: 25px;
+        margin-top: 25px;
     }
 
     .stackPhone {
         margin-top: -170px;
+    }
+
+    .single-list-topics-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 150px;
+        height: 140px;
+        background: #fff;
+        border-radius: 3px;
+        margin-right: 8px;
+        margin-bottom: 10px;
     }
 }
 
