@@ -40,6 +40,8 @@
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <!--responsive.css-->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href="https://fonts.cdnfonts.com/css/good-times-2" rel="stylesheet">
+
 
 </head>
 
@@ -100,7 +102,7 @@
                             <i class="fa fa-bars"></i>
                         </button>
                         <img src="assets/images/logo.png" class="Mlogo">
-                        <a class="navbar-brand" href="/">
+                        <a class="navbar-brand goodTimes" href="/">
                             <span class="lowercase">i</span>BEST TECHNOLOGIES</a>
                     </div><!--/.navbar-header-->
                     <!-- End Header Navigation -->
@@ -792,7 +794,7 @@
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="/"><span
+                            <a class="navbar-brand goodTimes" href="/"><span
                                     class="lowercase">i</span>BEST<span>&nbsp;TECHNOLOGIES</span></a>
                         </div><!--/.navbar-header-->
                     </div>

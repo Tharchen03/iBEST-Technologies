@@ -92,6 +92,10 @@ body {
     height: 100%;
 }
 
+.goodTimes{
+    font-family: 'Good Times Rg', sans-serif !important;
+}
+
 [placeholder]:focus::-webkit-input-placeholder {
     -webkit-transition: opacity 0.3s 0.3s ease;
     -moz-transition: opacity 0.3s 0.3s ease;
@@ -103,7 +107,7 @@ body {
 
 /* section-header */
 .fontH a{
-    font-family: "Source Sans 3" !important;
+    font-family: "Source Sans 3";
 
 }
 .section-header {
@@ -324,7 +328,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 .Mlogo {
     height: 4vw;  /* Adjust height to be 10% of the viewport width */
     width: 4vw;   /* Adjust width to be 10% of the viewport width */
-    margin-left: calc(-20vw); /* Adjust left margin relative to the viewport width */
+    margin-left: calc(-24vw); /* Adjust left margin relative to the viewport width */
     margin-top: 0vw; /* Adjust top margin relative to the viewport width */
 }
 /*.navbar-toggle */
@@ -519,7 +523,7 @@ nav.navbar.bootsnav .navbar-toggle i {
         6. Works 
 --------------------------------------*/
 .works {
-    padding: 90px 0 0 0;
+    padding: 65px 0 0 0;
 }
 
 .works-content {
@@ -876,7 +880,7 @@ nav.navbar.bootsnav .navbar-toggle i {
         8. Reviews
 --------------------------------------*/
 .reviews {
-    padding: 117px 0 75px;
+    padding: 70px 0 70px;
 }
 
 .reviews-content {
@@ -1067,7 +1071,7 @@ nav.navbar.bootsnav .navbar-toggle i {
         10. Blog
 --------------------------------------*/
 .blog {
-    padding: 120px 0 90px;
+    padding: 80px 0 65px;
 }
 
 .blog-content {
@@ -1248,7 +1252,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 --------------------------------------*/
 .subscription {
     background: #f8fafb;
-    padding: 150px 0;
+    padding: 70px 0;
 }
 
 /*subscribe-title*/
@@ -1660,9 +1664,14 @@ textarea {
     display: block;
 }
 
-.slick-prev:before,
+/* .slick-prev:before,
 .slick-next:before {
     color: #1e92c0;
+} */
+
+.slick-prev,
+.slick-next {
+    display: none !important;
 }
 
 
