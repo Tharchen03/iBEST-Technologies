@@ -68,20 +68,40 @@ $(document).ready(function () {
     });
 
 });
-
 $(document).ready(function () {
     $('.blog-slider').slick({
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 4, // Default setting for laptops
         centerMode: true,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2500,
-        centerPadding: '10px',
-        responsive: [{
-                breakpoint: 1024,
+        centerPadding: '20px',
+        responsive: [
+            {
+                breakpoint: 2000, // Larger screens
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    centerMode: true,
+                    centerPadding: '30px',
+                }
+            },
+            {
+                breakpoint: 1800, // Larger screens
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    centerMode: true,
+                    centerPadding: '30px',
+                }
+            },
+            {
+                breakpoint: 1024, // Laptops and smaller desktops
+                settings: {
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                     infinite: true,
                     centerMode: true,
@@ -90,7 +110,7 @@ $(document).ready(function () {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 600, // Tablets and large mobile devices
                 settings: {
                     slidesToShow: 1,
                     centerMode: true,
@@ -101,6 +121,8 @@ $(document).ready(function () {
         ]
     });
 });
+
+
 
 $(document).ready(function () {
     $('.topic-slider').slick({

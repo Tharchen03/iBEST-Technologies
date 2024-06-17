@@ -1102,6 +1102,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     width: 370px;
 }
 
+
 .educare {
     background-image: url('../images/anouncement/educare.png');
     background-size: cover;
@@ -1245,6 +1246,15 @@ nav.navbar.bootsnav .navbar-toggle i {
 .BLOG a {
     padding: 0px !important;
 }
+.blog-slide .BLOG {
+    padding: 10px !important;
+}
+
+@media (min-width:1200px) {
+    .containerBlog {
+        width: 100%;
+    }
+}
 
 
 /*-------------------------------------
@@ -1369,6 +1379,10 @@ textarea {
     padding: 45px 0;
 }
 
+.footer-menu .lowercase{
+    text-transform: lowercase !important;
+    font-family:"Roboto", sans-serif !important;
+}
 .footer-menu .navbar-header {
     padding: 0;
 }
@@ -1626,9 +1640,8 @@ textarea {
 /* #main-content {
     display: none;
 } */
-
 .lowercase {
-    text-transform: lowercase;
+    text-transform: lowercase !important;
 }
 
 .caps {

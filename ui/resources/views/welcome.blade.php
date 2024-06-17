@@ -533,7 +533,7 @@
 
     <!--profile start -->
     <section id="profile" class="blog ">
-        <div class="container Ccontainer">
+        <div class=" containerBlog">
             <div class="section-header">
                 <h2>our crafts</h2>
             </div><!--/.section-header-->
@@ -795,7 +795,7 @@
                     <div class="col-sm-3">
                         <div class="navbar-header">
                             <a class="navbar-brand goodTimes" href="/"><span
-                                    class="lowercase">i</span>BEST<span>&nbsp;TECHNOLOGIES</span></a>
+                                    class="lowercase ">i</span>BEST<span>&nbsp;TECHNOLOGIES</span></a>
                         </div><!--/.navbar-header-->
                     </div>
                     <div class="col-sm-9">
