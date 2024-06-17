@@ -95,18 +95,18 @@ $(document).ready(function () {
                     slidesToScroll: 1,
                     infinite: true,
                     centerMode: true,
-                    centerPadding: '30px',
+                    centerPadding: '100px',
                 }
             },
             {
                 breakpoint: 1024, // Laptops and smaller desktops
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     infinite: true,
                     centerMode: true,
                     dots: true,
-                    centerPadding: '10px',
+                    centerPadding: '20px',
                 }
             },
             {
@@ -115,7 +115,7 @@ $(document).ready(function () {
                     slidesToShow: 1,
                     centerMode: true,
                     slidesToScroll: 1,
-                    centerPadding: '10px',
+                    centerPadding: '30px',
                 }
             }
         ]
@@ -238,3 +238,6 @@ $(document).ready(function(){
       });
     }
   });
+
+
+  

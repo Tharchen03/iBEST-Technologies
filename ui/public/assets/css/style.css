@@ -20,6 +20,7 @@ body {
     max-width: 1920px;
     margin: 0 auto;
     overflow-x: hidden;
+
 }
 
 a,
@@ -453,6 +454,24 @@ nav.navbar.bootsnav .navbar-toggle i {
     height: auto;
     margin-left: 12px;
 }
+
+.expanding-figure {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 2;
+    transition: height 0.5s ease-in-out;
+}
+
+.expanding-figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 /*-------------------------------------
         5. List-topuics
@@ -2006,4 +2025,9 @@ textarea {
 
 .BLOG {
     margin-left: -20px;
+}
+
+.scroll{
+    scroll-behavior:smooth;
+
 }
