@@ -301,16 +301,25 @@
 
 /* section-header */
 
+
 @media only screen and (max-width: 600px) {
     .section-header h2 {
         font-size: 3rem !important;
+        margin-bottom:10px !important;
+    }
+
+    .welcome-hero-txt h2 {
+        text-align: left !important;
     }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 601px) {
     .section-header h2 {
         font-size: 4rem !important;
+    }
 
+    .welcome-hero-txt h2 {
+        text-align: left !important;
     }
 }
 
@@ -320,7 +329,8 @@
 /* nav-log0 */
 @media only screen and (max-width: 600px) {
     .Mlogo {
-        height: 8vw;  /* Smaller logo for smaller screens */
+        height: 8vw;
+        /* Smaller logo for smaller screens */
         width: 8vw;
         margin-left: 0;
         margin-top: -2vw;
@@ -444,7 +454,7 @@
 
     .subscription {
         background: #f8fafb;
-        padding: 70px 0;
+        padding: 40px 0;
     }
 }
 
@@ -536,7 +546,7 @@
     }
 
     .works {
-        padding: 60px 0 35px 0;
+        padding: 40px 0 25px 0;
     }
 }
 
@@ -637,6 +647,14 @@
     .reviews {
         padding: 60px 0 55px;
     }
+
+    .slick-slide {
+        margin: 0px 0px;
+        transition: all ease-in-out .3s;
+        opacity: .5;
+    }
+
+
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 601px) {
@@ -661,8 +679,14 @@
     }
 
     .BLOG {
-        margin-left: -1px;
+        margin-left: 8px;
     }
+
+    /* .Ccontainer {
+        padding-right: none !important;
+        padding-left: 0px !important;
+    } */
+
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 601px) {
@@ -790,8 +814,9 @@
     .teamstackOnlyphone {
         padding-right: 15px;
         padding-left: 15px;
-        margin-left: 25px;
+        margin-left: 5px;
         margin-top: 25px;
+        margin-bottom: -100px;
     }
 
     .stackPhone {
@@ -810,6 +835,19 @@
         margin-right: 8px;
         margin-bottom: 10px;
     }
+
+    .list-topics-content ul .slick-slide {
+        /* transition: transform 0.3s ease, opacity 0.3s ease; */
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+    .list-topics-content ul .slick-center {
+        opacity: 1;
+        transform: scale(1.1);
+        /* padding:10px; */
+    }
+
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 601px) {

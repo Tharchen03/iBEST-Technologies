@@ -17,7 +17,7 @@
     <!-- title of site -->
     <title>iBEST TECHNOLOGIES</title>
     <!-- For favicon png -->
-    <link rel="shortcut icon" type="image/icon" href="assets/logo/logo.png" />
+    <link rel="shortcut icon" type="image/icon" href="assets/logo/Logo.png" />
     <!--font-awesome.min.css-->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <!--linear icon css-->
@@ -101,7 +101,7 @@
                         </button>
                         <img src="assets/images/logo.png" class="Mlogo">
                         <a class="navbar-brand" href="/">
-                            <span class="lowercase">i</span>BEST<span>&nbsp;TECHNOLOGIES</span></a>
+                            <span class="lowercase">i</span>BEST TECHNOLOGIES</a>
                     </div><!--/.navbar-header-->
                     <!-- End Header Navigation -->
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -531,7 +531,7 @@
 
     <!--profile start -->
     <section id="profile" class="blog ">
-        <div class="container">
+        <div class="container Ccontainer">
             <div class="section-header">
                 <h2>our crafts</h2>
             </div><!--/.section-header-->
@@ -546,6 +546,18 @@
                     <div class="col-md-4 col-sm-6 BLOG">
                         <a href="https://esakor.nlcs.gov.bt/">
                             <div class="single-blog-item esakor">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 BLOG">
+                        <a href="https://my.nlcs.gov.bt/auth/login">
+                            <div class="single-blog-item mynlss">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 BLOG">
+                        <a href="https://lims.nlcs.gov.bt/auth/login">
+                            <div class="single-blog-item nlss">
                             </div>
                         </a>
                     </div>

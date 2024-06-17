@@ -1107,6 +1107,22 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .esakor {
+    background-image: url('../images/anouncement/esakor.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.mynlss {
+    background-image: url('../images/anouncement/mynlss.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.nlss {
     background-image: url('../images/anouncement/nlss.png');
     background-size: cover;
     background-position: center;
