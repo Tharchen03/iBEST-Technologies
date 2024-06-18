@@ -93,7 +93,7 @@ body {
     height: 100%;
 }
 
-.goodTimes{
+.goodTimes {
     font-family: 'Good Times Rg', sans-serif !important;
 }
 
@@ -107,10 +107,11 @@ body {
 }
 
 /* section-header */
-.fontH a{
+.fontH a {
     font-family: "Source Sans 3";
 
 }
+
 .section-header {
     position: relative;
     text-align: center;
@@ -212,7 +213,7 @@ nav.navbar.bootsnav {
     border-bottom: transparent;
 }
 
- .FontNav a span {
+.FontNav a span {
     font-family: "Roboto", sans-serif !important;
 }
 
@@ -327,11 +328,16 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .Mlogo {
-    height: 4vw;  /* Adjust height to be 10% of the viewport width */
-    width: 4vw;   /* Adjust width to be 10% of the viewport width */
-    margin-left: calc(-24vw); /* Adjust left margin relative to the viewport width */
-    margin-top: 0vw; /* Adjust top margin relative to the viewport width */
+    height: 4vw;
+    /* Adjust height to be 10% of the viewport width */
+    width: 4vw;
+    /* Adjust width to be 10% of the viewport width */
+    margin-left: calc(-24vw);
+    /* Adjust left margin relative to the viewport width */
+    margin-top: 0vw;
+    /* Adjust top margin relative to the viewport width */
 }
+
 /*.navbar-toggle */
 
 /*-------------------------------------
@@ -1265,6 +1271,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 .BLOG a {
     padding: 0px !important;
 }
+
 .blog-slide .BLOG {
     padding: 10px !important;
 }
@@ -1398,10 +1405,11 @@ textarea {
     padding: 45px 0;
 }
 
-.footer-menu .lowercase{
+.footer-menu .lowercase {
     text-transform: lowercase !important;
-    font-family:"Roboto", sans-serif !important;
+    font-family: "Roboto", sans-serif !important;
 }
+
 .footer-menu .navbar-header {
     padding: 0;
 }
@@ -1802,8 +1810,19 @@ textarea {
 }
 
 .clienP {
-    padding: 20px;
+    padding: 5px;
 }
+
+.educareCK {
+    width: 125px;
+    height: auto;
+}
+
+/* .client-list-topics-icon img {
+    height: auto !important;
+    width: 100% !important;
+    padding: 10px 10px 0 10px;
+} */
 
 @media only screen and (max-width: 600px) {
     .clienP {
@@ -2027,7 +2046,7 @@ textarea {
     margin-left: -20px;
 }
 
-.scroll{
-    scroll-behavior:smooth;
+.scroll {
+    scroll-behavior: smooth;
 
 }

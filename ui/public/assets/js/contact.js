@@ -22,36 +22,47 @@ async function sendEmail(event) {
         grecaptcha.reset();
     };
 
-    const response = await fetch('http://localhost:3000/send-email', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-            name,
-            email,
-            message
-        }),
-    });
-
-    const responseData = await response.json(); // Parse response data as JSON
-
-    if (responseData.success) {
-        Swal.fire({
-            position: 'bottom-end',
-            icon: 'success',
-            title: responseData.message,
-            showConfirmButton: false,
-            timer: 2500
+    try {
+        const response = await fetch('/send-email', { // Update URL to Laravel endpoint
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json', // Ensure Laravel returns JSON
+                'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content') // CSRF token
+            },
+            body: JSON.stringify({
+                fullname: name,
+                email_id: email,
+                message: message,
+                'g-recaptcha-response': recaptchaResponse
+            }),
         });
-        resetForm();
-    } else {
+
+        const responseData = await response.json(); // Parse response data as JSON
+
+        if (response.ok && responseData.success) {
+            Swal.fire({
+                position: 'bottom-end',
+                icon: 'success',
+                title: responseData.message,
+                showConfirmButton: false,
+                timer: 2500
+            });
+            resetForm();
+        } else {
+            Swal.fire({
+                position: 'bottom-end',
+                icon: 'error',
+                title: responseData.message || 'Failed to send email',
+                showConfirmButton: true
+            });
+        }
+    } catch (error) {
         Swal.fire({
             position: 'bottom-end',
             icon: 'error',
-            title: responseData.message,
+            title: 'An error occurred while sending email',
             showConfirmButton: true
         });
-        resetForm();
     }
 }

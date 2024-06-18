@@ -6,11 +6,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 
-
-class ContactController extends Controller
-
+class EmailController extends Controller
 {
-
     public function sendEmail(Request $request)
     {
         // Validation
@@ -18,7 +15,7 @@ class ContactController extends Controller
             'fullname' => 'required|string',
             'email_id' => 'required|email',
             'message' => 'required|string',
-            'g-recaptcha-response' => 'required',
+            'g-recaptcha-response' => 'required|recaptcha',
         ]);
 
         if ($validator->fails()) {

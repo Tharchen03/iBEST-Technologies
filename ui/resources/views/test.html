@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .scroll-container {
+        position: relative;
+        height: 100vh;
+        /* Full viewport height */
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url('path_to_your_background_image.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .text-container {
+        position: relative;
+        z-index: 2;
+        /* Ensure text is above the background */
+        color: white;
+        /* Text color */
+        animation: zoom-in 3s ease forwards;
+        /* Initial zoom-in animation */
+    }
+
+    @keyframes zoom-in {
+        0% {
+            transform: scale(0.5);
+            opacity: 0;
+        }
+
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+</style>
+
+<body>
+    <div class="scroll-container">
+        <div class="text-container">
+            <h1>Your Title Here</h1>
+            <p>Your text content here...</p>
+        </div>
+    </div>
+</body>
+
+<script>
+    window.addEventListener('scroll', function() {
+        let scrollPos = window.scrollY;
+        let textContainer = document.querySelector('.text-container');
+        let scrollContainer = document.querySelector('.scroll-container');
+        
+        // Adjust background position based on scroll position
+        scrollContainer.style.backgroundPositionY = -scrollPos * 0.5 + 'px'; // Adjust multiplier as needed
+        
+        // Zoom out the text container based on scroll position
+        let zoomFactor = 1 - scrollPos / (scrollContainer.offsetHeight * 0.8); // Adjust the divisor for different zoom effect
+        textContainer.style.transform = ⁠ scale(${zoomFactor})⁠;
+    });
+</script>
+
+</html>

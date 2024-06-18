@@ -329,12 +329,12 @@
 /* nav-log0 */
 @media only screen and (max-width: 600px) {
     .Mlogo {
-        height: 8vw;
-        /* Smaller logo for smaller screens */
+        /* height: 8vw;
         width: 8vw;
         margin-left: 0;
         margin-top: -2vw;
-        margin-right: 1vw;
+        margin-right: 1vw; */
+        display:none;
     }
 }
 
@@ -358,6 +358,7 @@
         color: white;
         text-transform: uppercase;
         font-weight: bold;
+        padding:0 10px;
     }
 
     .single-how-works h2 a span {
@@ -370,7 +371,7 @@
         color: white;
         font-size: 1.7rem;
         margin-top: -20px;
-
+        padding:0 10px;
     }
 
     .onlytabLSF {
@@ -548,6 +549,11 @@
     .works {
         padding: 40px 0 25px 0;
     }
+
+    .works-content {
+        padding: 0px;
+    }
+    
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 601px) {
@@ -745,6 +751,9 @@
     #scroll-Top .return-to-top {
         right: 10px;
         bottom: 25px;
+    }
+    .footer-menu{
+        display:none;
     }
 }
 

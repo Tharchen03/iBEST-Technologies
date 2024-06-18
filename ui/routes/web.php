@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\EmailController;
+
 
 
 /*
@@ -18,4 +20,6 @@ use App\Http\Controllers\ContactController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::post('/submit-booking', [ContactController::class, 'submitContact'])->name('submitContact');
+
+Route::post('/send-email', [ContactController::class, 'sendEmail'])->name('sendEmail');
+// Route::post('/send-email', [EmailController::class, 'sendEmail']);

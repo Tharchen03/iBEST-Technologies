@@ -4,6 +4,7 @@
 <head>
     <!-- meta data -->
     <meta charset="utf-8">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -11,9 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/sf-mono" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
     <!-- title of site -->
     <title>iBEST TECHNOLOGIES</title>
     <!-- For favicon png -->
@@ -540,7 +544,7 @@
             <div class="blog-content">
                 <div class="row blog-slider">
                     <div class="col-md-4 col-sm-6 BLOG">
-                        <a >
+                        <a href="https://educareskill.com/">
                             <div class="single-blog-item educare">
                             </div>
                         </a>
@@ -623,9 +627,8 @@
             <h2 class="cas h2W">Careers</h2>
             <p class="cas Pcas"> <span style="color: #87d7fb;">you.</span><span
                     style="color: #d7d6a2;">think</span><span style="color: #ffd130;">(</span><span
-                    style="color: #87d7fb;">problemSolving</span><span style="color: #ffd130;">)</span> 
-                    <span
-                    style="color: #cecece; letter-spacing:1.3px;">==</span>
+                    style="color: #87d7fb;">problemSolving</span><span style="color: #ffd130;">)</span>
+                <span style="color: #cecece; letter-spacing:1.3px;">==</span>
                 <span style="color:#cd866f ;">'connecting the dots'</span> <span style="color: #b1b1b1;">?</span>
                 <span style="color:#cd866f;">'you are an
                     artisan'</span>
@@ -661,68 +664,86 @@
             <div class="client-topics-content slick">
                 <ul>
                     <li>
-                        <div class="client-list-topics-content">
-                            <div class="client-list-topics-icon">
-                                <img style="width:125px;height:40px;" src="assets/images/clients/educare.png"
-                                    alt="Learning Antics Logo">
+                        <a href="https://educareskill.com/" style="height:170px;width:205px;">
+                            <div class="client-list-topics-content">
+                                <div class="client-list-topics-icon">
+                                    <img style="height:auto;width:100px;padding-bottom:5px"
+                                        src="assets/images/clients/Educareskill.png" >
+                                </div>
                             </div>
-                            <p class="clienP">EducareSkill</p>
-                        </div>
+                        </a>
                     </li>
                     <li>
-                        <div class="client-list-topics-content">
-                            <div class="client-list-topics-icon">
-                                <img style="width:80px;height:80px;" src="assets/images/clients/ibeststudio.png"
-                                    alt="Learning Antics Logo">
+                        <a href="https://www.ibeststudios.com/" style="height:170px;width:205px;">
+                            <div class="client-list-topics-content">
+                                <div class="client-list-topics-icon">
+                                    <img src="assets/images/clients/ibeststudio.png" style="width:90px;height:auto;"
+                                        >
+                                </div>
                             </div>
-                            <p class="clienP">iBEST Studios</p>
-                        </div>
+                        </a>
+
                     </li>
                     <li>
-                        <div class="client-list-topics-content">
-                            <div class="client-list-topics-icon">
-                                <img style="width:80px;height:80px;" src="assets/images/clients/esakor.png"
-                                    alt="Learning Antics Logo">
+                        <a href="https://creativerse.biz/" style="height:170px;width:205px;">
+                            <div class="client-list-topics-content">
+                                <div class="client-list-topics-icon">
+                                    <img style="width:110px;height:auto;" src="assets/images/clients/Creativerse.png"
+                                        >
+                                </div>
                             </div>
-                            <p class="clienP">NLCS</p>
-                        </div>
+                        </a>
+
                     </li>
                     <li>
-                        <div class="client-list-topics-content">
-                            <div class="client-list-topics-icon">
-                                <img style="width:100px;height:35px;" src="assets/images/clients/creativerse.png"
-                                    alt="Learning Antics Logo">
+                        <a href="https://www.takineducation.bt/" style="height:170px;width:205px;">
+                            <div class="client-list-topics-content">
+                                <div class="client-list-topics-icon">
+                                    <img style="width:140px;height:auto;" src="assets/images/clients/Takin.png"
+                                        >
+                                </div>
                             </div>
-                            <p class="clienP">Creative Verse</p>
-                        </div>
+                        </a>
+
                     </li>
                     <li>
-                        <div class="client-list-topics-content">
-                            <div class="client-list-topics-icon">
-                                <img style="width:70px;height:60px;" src="assets/images/clients/waste.png"
-                                    alt="Learning Antics Logo">
+                        <a href="https://onebhutan.com/" style="height:170px;width:205px;">
+                            <div class="client-list-topics-content">
+                                <div class="client-list-topics-icon">
+                                    <img style="width:140px;height:auto;"
+                                        src="assets/images/clients/One Bhutan Adventures.png"
+                                        >
+                                </div>
                             </div>
-                            <p class="clienP">Zero Waste Bhutan</p>
-                        </div>
+                        </a>
+
                     </li>
                     <li>
-                        <div class="client-list-topics-content">
-                            <div class="client-list-topics-icon">
-                                <img style="width:100px;height:35px;" src="assets/images/clients/oneBhutan.png"
-                                    alt="Learning Antics Logo">
+                        <a href="https://my.nlcs.gov.bt/auth/login" style="height:170px;width:205px;">
+                            <div class="client-list-topics-content">
+                                <div class="client-list-topics-icon">
+                                    <img style="width:125px;height:auto;" src="assets/images/clients/NLC.png"
+                                        >
+                                </div>
                             </div>
-                            <p class="clienP">One Bhutan</p>
-                        </div>
+                        </a>
+
                     </li>
+
                     <li>
-                        <div class="client-list-topics-content">
-                            <div class="client-list-topics-icon">
-                                <img style="width:100px;height:35px;" src="assets/images/clients/takin.png"
-                                    alt="Learning Antics Logo">
+                        <a href="https://zerowastebhutan.gov.bt/homepage" style="height:180px;width:210px;">
+                            <div class="client-list-topics-content">
+                                <div class="client-list-topics-icon">
+                                    <img style="width:100px;height:auto;"
+                                        src="assets/images/clients/Zero Waste Bhutan.png" >
+                                </div>
                             </div>
-                            <p class="clienP">Takin Education<br>Consultancy</p>
-                        </div>
+                        </a>
+
                     </li>
+
+
+
                 </ul>
             </div>
         </div>
@@ -730,14 +751,69 @@
     <!--client end -->
 
     <!--contact strat -->
-    <section id="contact" class="subscription">
+    {{-- <section id="contact" class="subscription">
         <div class="container">
             <div class="subscribe-title text-center">
                 <h2>send us your Query</h2>
             </div>
             <div class="row">
                 <div class="subscription-input-group">
-                    <form id="" {{-- onsubmit="sendEmail(event)" --}} action="{{ route('submitContact') }}" method="POST">
+                    <form id="contactForm" onsubmit="sendEmail(event)">
+                        @csrf
+
+                        <div class="form-group">
+                            <input type="text" class="subscription-input-form" id="name"
+                                placeholder="Enter your name" name="fullname" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="subscription-input-form" id="email"
+                                aria-describedby="emailHelp" placeholder="Enter your email" name="email_id" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="subscription-input-form" id="message" rows="3" placeholder="Enter your message"
+                                name="message" required></textarea>
+                        </div>
+
+                        <div class="button-captcha-container">
+                            <div class="g-recaptcha captchaPhone"
+                                data-sitekey="6LcqBvUpAAAAAHeTNv4gitbasAqRC2kIprfgc59Y">
+                                @if ($errors->has('g-recaptcha-response'))
+                                    <div>
+                                        <small class="text-danger">
+                                            This field is required
+                                        </small>
+                                    </div>
+                                @endif
+                            </div>
+                            <button class="button_test" type="submit">
+                                <div class="svg-wrapper-1">
+                                    <div class="svg-wrapper">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                            height="24">
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path fill="currentColor"
+                                                d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span>Send message</span>
+                            </button>
+                        </div>
+                    </form>
+                    <div id="messageContainer"></div>
+                </div>
+            </div>
+        </div>
+    </section> --}}
+    <section id="contact" class="subscription">
+        <div class="container">
+            <div class="subscribe-title text-center">
+                <h2>Send Us Your Query</h2>
+            </div>
+            <div class="row">
+                <div class="subscription-input-group">
+                    <form id="contactForm" onsubmit="sendEmail(event)">
                         @csrf
 
                         <div class="form-group">
@@ -785,6 +861,7 @@
             </div>
         </div>
     </section>
+
     <!--contact end -->
 
     <!--footer start-->

@@ -117,6 +117,15 @@ $(document).ready(function () {
                     slidesToScroll: 1,
                     centerPadding: '30px',
                 }
+            },
+            {
+                breakpoint: 340, // Tablets and large mobile devices
+                settings: {
+                    slidesToShow: 1,
+                    centerMode: true,
+                    slidesToScroll: 1,
+                    centerPadding: '10px',
+                }
             }
         ]
     });
