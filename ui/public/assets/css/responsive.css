@@ -553,7 +553,7 @@
     .works-content {
         padding: 0px;
     }
-    
+
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 601px) {
@@ -706,6 +706,14 @@
 
 }
 
+@media only screen and (max-width: 2000px)  {
+    .single-blog-item {
+        height: 400px;
+        width: 370px;
+    }
+
+}
+
 /* crafts- */
 
 
@@ -716,11 +724,21 @@
         padding: 85px 0 0 !important;
         margin-bottom: -130px;
     }
+    .clientLogoA{
+        height:130px;
+        width:130px;
+        color: none !important;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 601px) {
     .reviewsP {
         margin-bottom: -140px;
+    }
+    .clientLogoA{
+        height:170px;
+        width:205px;
+        color: none !important;
     }
 }
 
@@ -850,7 +868,7 @@
         opacity: 1;
         transform: scale(1);
     }
-    
+
     .list-topics-content ul .slick-center {
         opacity: 1;
         transform: scale(1.1);

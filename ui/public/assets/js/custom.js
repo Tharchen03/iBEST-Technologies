@@ -76,7 +76,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2500,
-        centerPadding: '20px',
+        centerPadding: '40px',
         responsive: [
             {
                 breakpoint: 2000, // Larger screens
@@ -95,7 +95,7 @@ $(document).ready(function () {
                     slidesToScroll: 1,
                     infinite: true,
                     centerMode: true,
-                    centerPadding: '100px',
+                    centerPadding: '40px',
                 }
             },
             {
@@ -249,4 +249,3 @@ $(document).ready(function(){
   });
 
 
-  

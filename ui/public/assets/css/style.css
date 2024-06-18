@@ -545,7 +545,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 /*-------------------------------------
-        6. Works 
+        6. Works
 --------------------------------------*/
 .works {
     padding: 65px 0 0 0;
@@ -673,7 +673,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     border-radius: 3px;
 }
 
-/* 
+/*
 .single-how-works:hover h2 a,
 .single-how-works:hover p {
     color: #fff;
@@ -1043,7 +1043,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 /*.slick-slide*/
 
-/*-------------------------------------       
+/*-------------------------------------
         9.  Counter
 --------------------------------------*/
 .statistics {
@@ -1124,7 +1124,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     -o-transition: .3s;
     transition: .3s;
     height: 400px;
-    width: 370px;
+    width: 340px;
 }
 
 
@@ -1565,7 +1565,7 @@ textarea {
     font-weight: 300;
 }
 
-/* 
+/*
 #services{
     padding-top: 200px;
 } */
@@ -1777,7 +1777,7 @@ textarea {
 .client-list-topics-icon [class^="flaticon-"]:after,
 .client-list-topics-icon [class*=" flaticon-"]:after {
     font-size: 45px;
-    color: #343a3f;
+    color: none;
 }
 
 .client-list-topics-content:hover .client-list-topics-icon [class*=" flaticon-"]:before,
@@ -2049,4 +2049,11 @@ textarea {
 .scroll {
     scroll-behavior: smooth;
 
+}
+
+
+.clientLogoA{
+    height:170px;
+    width:205px;
+    color: none !important;
 }

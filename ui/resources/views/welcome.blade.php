@@ -664,7 +664,7 @@
             <div class="client-topics-content slick">
                 <ul>
                     <li>
-                        <a href="https://educareskill.com/" style="height:170px;width:205px;">
+                        <a href="https://educareskill.com/" class="clientLogoA">
                             <div class="client-list-topics-content">
                                 <div class="client-list-topics-icon">
                                     <img style="height:auto;width:100px;padding-bottom:5px"
@@ -674,7 +674,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.ibeststudios.com/" style="height:170px;width:205px;">
+                        <a href="https://www.ibeststudios.com/" class="clientLogoA">
                             <div class="client-list-topics-content">
                                 <div class="client-list-topics-icon">
                                     <img src="assets/images/clients/ibeststudio.png" style="width:90px;height:auto;"
@@ -685,7 +685,7 @@
 
                     </li>
                     <li>
-                        <a href="https://creativerse.biz/" style="height:170px;width:205px;">
+                        <a href="https://creativerse.biz/" class="clientLogoA">
                             <div class="client-list-topics-content">
                                 <div class="client-list-topics-icon">
                                     <img style="width:110px;height:auto;" src="assets/images/clients/Creativerse.png"
@@ -696,7 +696,7 @@
 
                     </li>
                     <li>
-                        <a href="https://www.takineducation.bt/" style="height:170px;width:205px;">
+                        <a href="https://www.takineducation.bt/" class="clientLogoA">
                             <div class="client-list-topics-content">
                                 <div class="client-list-topics-icon">
                                     <img style="width:140px;height:auto;" src="assets/images/clients/Takin.png"
@@ -707,7 +707,7 @@
 
                     </li>
                     <li>
-                        <a href="https://onebhutan.com/" style="height:170px;width:205px;">
+                        <a href="https://onebhutan.com/" class="clientLogoA">
                             <div class="client-list-topics-content">
                                 <div class="client-list-topics-icon">
                                     <img style="width:140px;height:auto;"
@@ -719,7 +719,7 @@
 
                     </li>
                     <li>
-                        <a href="https://my.nlcs.gov.bt/auth/login" style="height:170px;width:205px;">
+                        <a href="https://my.nlcs.gov.bt/auth/login" class="clientLogoA">
                             <div class="client-list-topics-content">
                                 <div class="client-list-topics-icon">
                                     <img style="width:125px;height:auto;" src="assets/images/clients/NLC.png"
@@ -731,7 +731,7 @@
                     </li>
 
                     <li>
-                        <a href="https://zerowastebhutan.gov.bt/homepage" style="height:180px;width:210px;">
+                        <a href="https://zerowastebhutan.gov.bt/homepage" class="clientLogoA">
                             <div class="client-list-topics-content">
                                 <div class="client-list-topics-icon">
                                     <img style="width:100px;height:auto;"
