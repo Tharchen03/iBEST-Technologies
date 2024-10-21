@@ -487,11 +487,16 @@ nav.navbar.bootsnav .navbar-toggle i {
     top: -98px;
     z-index: 1;
     margin-left: 50px;
+    text-align: center;
 }
 
+.list-topics-content ul {
+    list-style: none;
+}
 .list-topics-content ul li {
     display: inline-block;
 }
+
 
 .single-list-topics-content {
     display: flex;
