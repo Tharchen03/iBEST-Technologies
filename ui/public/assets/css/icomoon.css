@@ -25,6 +25,20 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-typescript:before {
+    content: "\e913";
+    color: #045388;
+}
+
+.icon-go:before {
+    content: "\e912";
+    color: #045388;
+}
+
+.icon-kotlin:before {
+    content: "\e903";
+    color: #045388;
+}
 .icon-express-svgrepo-com:before {
     content: "\e90e";
     color: #045388;

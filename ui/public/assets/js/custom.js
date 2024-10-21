@@ -85,7 +85,7 @@ $(document).ready(function () {
                     slidesToScroll: 1,
                     infinite: true,
                     centerMode: true,
-                    centerPadding: '30px',
+                    centerPadding: '90px',
                 }
             },
             {

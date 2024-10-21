@@ -41,6 +41,7 @@
     <!--style.css-->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/c.css">
+    <link rel="stylesheet" href="assets/css/test.css">
     <link rel="stylesheet" href="assets/css/icomoon.css">
     <!--responsive.css-->
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -197,10 +198,7 @@
                 </div>
             </div>
         </div><!--/.container-->
-    </section><!--/.services-->
-    <!--services end -->
-
-
+    </section>
 
     <!--team start -->
     <section id="team" class="reviews ">
@@ -212,7 +210,7 @@
             <div class="team-carousel">
                 <div class="single-team-box">
                     <div class="team-img">
-                        <img src="assets/images/team/SR.png" alt="clients">
+                        <img loading="lazy" src="assets/images/team/SR.png" alt="clients">
                     </div>
                     <div class="team-description">
                         <div class="team-comment">
@@ -228,7 +226,7 @@
                 </div><!--/.single-team-box-->
                 <div class="single-team-box">
                     <div class="team-img">
-                        <img src="assets/images/team/sonamT.png" alt="clients">
+                        <img loading="lazy" src="assets/images/team/sonamT.png" alt="clients">
                     </div>
                     <div class="team-description">
                         <div class="team-comment">
@@ -244,7 +242,7 @@
                 </div><!--/.single-team-box-->
                 <div class="single-team-box">
                     <div class="team-img">
-                        <img src="assets/images/team/cheku.png" alt="clients">
+                        <img loading="lazy" src="assets/images/team/cheku.png" alt="clients">
                     </div><!--/.team-img-->
                     <div class="team-description">
                         <div class="team-comment">
@@ -260,7 +258,7 @@
                 </div><!--/.single-team-box-->
                 <div class="single-team-box">
                     <div class="team-img">
-                        <img src="assets/images/team/kinley.png" alt="clients">
+                        <img loading="lazy" src="assets/images/team/kinley.png" alt="clients">
                     </div><!--/.team-img-->
                     <div class="team-description">
 
@@ -274,26 +272,10 @@
                         </div><!--/.team-comment-->
                     </div><!--/.team-description-->
                 </div><!--/.single-team-box-->
-                <div class="single-team-box">
-                    <div class="team-img">
-                        <img src="assets/images/team/karma.png" alt="clients">
-                    </div><!--/.team-img-->
-                    <div class="team-description">
 
-                        <div class="team-comment">
-                            <div class="team-person">
-                                <h3>Karma Lhendup</h3>
-                                <h4>Software Developer</h4>
-                            </div>
-                            <p>
-                                Analytical . Innovative . Persistent
-                            </p>
-                        </div><!--/.team-comment-->
-                    </div><!--/.team-description-->
-                </div><!--/.single-team-box-->
                 <div class="single-team-box">
                     <div class="team-img">
-                        <img src="assets/images/team/pelzang.png" alt="clients">
+                        <img loading="lazy" src="assets/images/team/pelzang.png" alt="clients">
                     </div><!--/.team-img-->
                     <div class="team-description">
 
@@ -309,7 +291,7 @@
                 </div><!--/.single-team-box-->
                 <div class="single-team-box">
                     <div class="team-img">
-                        <img src="assets/images/team/tshering.png" alt="clients">
+                        <img loading="lazy" src="assets/images/team/tshering.png" alt="clients">
                     </div><!--/.team-img-->
                     <div class="team-description">
 
@@ -326,7 +308,24 @@
                 </div><!--/.single-team-box-->
                 <div class="single-team-box">
                     <div class="team-img">
-                        <img src="assets/images/team/tharchen.png" alt="clients">
+                        <img loading="lazy" src="assets/images/team/nima.png" alt="clients">
+                    </div><!--/.team-img-->
+                    <div class="team-description">
+
+                        <div class="team-comment">
+                            <div class="team-person">
+                                <h3> Nima</h3>
+                                <h4>UI/UX Developer</h4>
+                            </div>
+                            <p>
+                                Resourceful. Collaborative. Innovative
+                            </p>
+                        </div><!--/.team-comment-->
+                    </div><!--/.team-description-->
+                </div><!--/.single-team-box-->
+                <div class="single-team-box">
+                    <div class="team-img">
+                        <img loading="lazy" src="assets/images/team/tharchen.png" alt="clients">
                     </div><!--/.team-img-->
                     <div class="team-description">
 
@@ -343,7 +342,7 @@
                 </div><!--/.single-team-box-->
                 <div class="single-team-box">
                     <div class="team-img">
-                        <img src="assets/images/team/jangchub.png" alt="clients">
+                        <img loading="lazy" src="assets/images/team/jangchub.png" alt="clients">
                     </div><!--/.team-img-->
                     <div class="team-description">
 
@@ -359,7 +358,7 @@
                 </div><!--/.single-team-box-->
                 <div class="single-team-box">
                     <div class="team-img">
-                        <img src="assets/images/team/nar.png" alt="clients">
+                        <img loading="lazy" src="assets/images/team/nar.png" alt="clients">
                     </div><!--/.team-img-->
                     <div class="team-description">
 
@@ -376,7 +375,7 @@
                 </div><!--/.single-team-box-->
                 <div class="single-team-box">
                     <div class="team-img">
-                        <img src="assets/images/team/tandin.png" alt="clients">
+                        <img loading="lazy" src="assets/images/team/tandin.png" alt="clients">
                     </div><!--/.team-img-->
                     <div class="team-description">
                         <div class="team-comment">
@@ -386,6 +385,70 @@
                             </div>
                             <p>
                                 Gamer . Ambitious . Artistic
+                            </p>
+                        </div><!--/.team-comment-->
+                    </div><!--/.team-description-->
+                </div><!--/.single-team-box-->
+                <div class="single-team-box">
+                    <div class="team-img">
+                        <img loading="lazy" src="assets/images/team/pema.png" alt="clients">
+                    </div><!--/.team-img-->
+                    <div class="team-description">
+                        <div class="team-comment">
+                            <div class="team-person">
+                                <h3>Pema Lepcha</h3>
+                                <h4>Software Developer</h4>
+                            </div>
+                            <p>
+                                Benevolent . Inquisitive . Artistic
+                            </p>
+                        </div><!--/.team-comment-->
+                    </div><!--/.team-description-->
+                </div><!--/.single-team-box-->
+                <div class="single-team-box">
+                    <div class="team-img">
+                        <img loading="lazy" src="assets/images/team/suresh.png" alt="clients">
+                    </div><!--/.team-img-->
+                    <div class="team-description">
+                        <div class="team-comment">
+                            <div class="team-person">
+                                <h3>Suresh Ahlay</h3>
+                                <h4>Software Developer</h4>
+                            </div>
+                            <p>
+                                Architect . Intuitive . Assertive
+                            </p>
+                        </div><!--/.team-comment-->
+                    </div><!--/.team-description-->
+                </div><!--/.single-team-box-->
+                <div class="single-team-box">
+                    <div class="team-img">
+                        <img loading="lazy" src="assets/images/team/tenzin.png" alt="clients">
+                    </div><!--/.team-img-->
+                    <div class="team-description">
+                        <div class="team-comment">
+                            <div class="team-person">
+                                <h3>Tenzin Dorji</h3>
+                                <h4>Software Developer</h4>
+                            </div>
+                            <p>
+                                Passionate . Creative . Technical
+                            </p>
+                        </div><!--/.team-comment-->
+                    </div><!--/.team-description-->
+                </div><!--/.single-team-box-->
+                <div class="single-team-box">
+                    <div class="team-img">
+                        <img loading="lazy" src="assets/images/team/karma2.png" alt="clients">
+                    </div><!--/.team-img-->
+                    <div class="team-description">
+                        <div class="team-comment">
+                            <div class="team-person">
+                                <h3>Karma Lethro</h3>
+                                <h4>Software Developer</h4>
+                            </div>
+                            <p>
+                                Obeservant . Assertive . Adventurer
                             </p>
                         </div><!--/.team-comment-->
                     </div><!--/.team-description-->
@@ -528,6 +591,30 @@
                             <p>Dart</p>
                         </div>
                     </li>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <i class="icon-kotlin"></i>
+                            </div>
+                            <p>Kotlin</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <i class="icon-go"></i>
+                            </div>
+                            <p>Go lang</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="single-list-topics-content">
+                            <div class="single-list-topics-icon">
+                                <i class="icon-typescript"></i>
+                            </div>
+                            <p>Typescript</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -667,8 +754,8 @@
                         <a href="https://educareskill.com/" class="clientLogoA">
                             <div class="client-list-topics-content">
                                 <div class="client-list-topics-icon">
-                                    <img style="height:auto;width:100px;padding-bottom:5px"
-                                        src="assets/images/clients/Educareskill.png" >
+                                    <img style="height:auto;width:100px;padding-bottom:5px" loading="lazy"
+                                        src="assets/images/clients/Educareskill.png">
                                 </div>
                             </div>
                         </a>
@@ -677,8 +764,8 @@
                         <a href="https://www.ibeststudios.com/" class="clientLogoA">
                             <div class="client-list-topics-content">
                                 <div class="client-list-topics-icon">
-                                    <img src="assets/images/clients/ibeststudio.png" style="width:90px;height:auto;"
-                                        >
+                                    <img loading="lazy" src="assets/images/clients/ibeststudio.png"
+                                        style="width:90px;height:auto;">
                                 </div>
                             </div>
                         </a>
@@ -688,8 +775,8 @@
                         <a href="https://creativerse.biz/" class="clientLogoA">
                             <div class="client-list-topics-content">
                                 <div class="client-list-topics-icon">
-                                    <img style="width:110px;height:auto;" src="assets/images/clients/Creativerse.png"
-                                        >
+                                    <img style="width:150px;height:auto;" loading="lazy"
+                                        src="assets/images/clients/Creativerse.png">
                                 </div>
                             </div>
                         </a>
@@ -699,8 +786,8 @@
                         <a href="https://www.takineducation.bt/" class="clientLogoA">
                             <div class="client-list-topics-content">
                                 <div class="client-list-topics-icon">
-                                    <img style="width:140px;height:auto;" src="assets/images/clients/Takin.png"
-                                        >
+                                    <img style="width:140px;height:auto;" loading="lazy"
+                                        src="assets/images/clients/Takin.png">
                                 </div>
                             </div>
                         </a>
@@ -710,9 +797,8 @@
                         <a href="https://onebhutan.com/" class="clientLogoA">
                             <div class="client-list-topics-content">
                                 <div class="client-list-topics-icon">
-                                    <img style="width:140px;height:auto;"
-                                        src="assets/images/clients/One Bhutan Adventures.png"
-                                        >
+                                    <img style="width:140px;height:auto;" loading="lazy"
+                                        src="assets/images/clients/One Bhutan Adventures.png">
                                 </div>
                             </div>
                         </a>
@@ -722,8 +808,8 @@
                         <a href="https://my.nlcs.gov.bt/auth/login" class="clientLogoA">
                             <div class="client-list-topics-content">
                                 <div class="client-list-topics-icon">
-                                    <img style="width:125px;height:auto;" src="assets/images/clients/NLC.png"
-                                        >
+                                    <img loading="lazy" style="width:125px;height:auto;"
+                                        src="assets/images/clients/NLC.png">
                                 </div>
                             </div>
                         </a>
@@ -734,8 +820,8 @@
                         <a href="https://zerowastebhutan.gov.bt/homepage" class="clientLogoA">
                             <div class="client-list-topics-content">
                                 <div class="client-list-topics-icon">
-                                    <img style="width:100px;height:auto;"
-                                        src="assets/images/clients/Zero Waste Bhutan.png" >
+                                    <img loading="lazy" style="width:150px;height:auto;"
+                                        src="assets/images/clients/Zero Waste Bhutan.png">
                                 </div>
                             </div>
                         </a>
@@ -970,6 +1056,210 @@
     {{-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> --}}
     {!! htmlScripttagJsApi() !!}
 
+    </script>
+
+    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script> --}}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+
+    <script>
+        ScrollTrigger.defaults({
+            markers: false
+        });
+
+        var points = gsap.utils.toArray(".point");
+        var indicators = gsap.utils.toArray(".indicator");
+
+        var height = 10 * points.length;
+
+        gsap.set(".indicators", {
+            display: "flex"
+        });
+
+        var pinner = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".philosophie .wrapper",
+                start: "top 80px",
+                end: "+=" + height + "%",
+                scrub: true,
+                pin: true,
+                id: "pinning",
+                markers: false
+            }
+        });
+
+        var tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".philosophie",
+                start: "top center",
+                end: "+=" + height + "%",
+                scrub: true,
+                id: "points"
+            }
+        });
+
+        points.forEach(function(elem, i) {
+            gsap.set(elem, {
+                position: "absolute",
+                top: 0
+            });
+
+            //   console.log(elem.querySelector("img"));
+            //   console.log(elem.querySelectorAll("article"));
+
+            tl.set(elem, {
+                zIndex: 2
+            });
+            tl.to(indicators[i], {
+                backgroundColor: "orange",
+                duration: 0.25
+            }, i);
+            tl.from(elem.querySelector("img"), {
+                autoAlpha: 0
+            }, i);
+            tl.from(
+                elem.querySelectorAll("article"), {
+                    autoAlpha: 0,
+                    translateY: 100
+                },
+                i
+            );
+            tl.set(elem, {
+                zIndex: 0
+            }, ">");
+
+            // if (i != points.length - 1) {
+            //   tl.to(
+            //     indicators[i],
+            //     { backgroundColor: "#adadad", duration: 0.25 },
+            //     i + 0.75
+            //   );
+            //   tl.to(
+            //     elem.querySelectorAll(".article"),
+            //     { autoAlpha: 0, translateY: -100 },
+            //     i + 0.75
+            //   );
+            //   tl.to(elem.querySelector("img"), { autoAlpha: 0 }, i + 0.75);
+            // }
+        });
+
+        /**
+         * Magnetic button using GSAP
+         */
+        function magneticButton(options) {
+            let settings = $.extend({
+                    target: $('[data-magnetic]'), // jQuery element
+                    class: 'magnetizing',
+                    attraction: 0.45, // 1 is weak, 0 is strong
+                    distance: 100, // magnetic area around element
+                    onEnter: function(data) {
+
+                    },
+                    onExit: function(data) {
+
+                    },
+                    onUpdate: function(data) {
+
+                    },
+                }, options),
+
+                isEnter = false,
+
+                // distance from mouse to center of target
+                distanceFromMouse = function($target, mouseX, mouseY) {
+                    let centerX = $target.offset().left + $target.outerWidth() / 2,
+                        centerY = $target.offset().top + $target.outerHeight() / 2,
+                        pointX = mouseX - centerX,
+                        pointY = mouseY - centerY,
+                        distance = Math.sqrt(Math.pow(pointX, 2) + Math.pow(pointY, 2));
+
+                    return Math.floor(distance);
+                },
+
+                // processing
+                magnetize = function($this, e) {
+                    let mouseX = e.pageX,
+                        mouseY = e.pageY;
+
+                    $this.each(function() {
+                        let $this = $(this),
+                            centerX = $this.offset().left + $this.outerWidth() / 2,
+                            centerY = $this.offset().top + $this.outerHeight() / 2,
+                            deltaX = Math.floor(centerX - mouseX) * -1 * settings.attraction,
+                            deltaY = Math.floor(centerY - mouseY) * -1 * settings.attraction,
+                            mouseDistance = distanceFromMouse($this, mouseX, mouseY),
+                            data = {
+                                target: $this,
+                                y: deltaY,
+                                x: deltaX,
+                                distance: mouseDistance
+                            };
+
+                        if (mouseDistance < settings.distance) {
+                            gsap.to($this, {
+                                y: deltaY,
+                                x: deltaX
+                            });
+
+                            // enter
+                            if (!isEnter) {
+                                isEnter = true;
+                                $this.addClass(settings.class);
+                                settings.onEnter(data);
+                            }
+
+                            // update
+                            settings.onUpdate(data);
+                        } else {
+                            gsap.to($this, {
+                                y: 0,
+                                x: 0
+                            });
+
+                            // exit
+                            if (isEnter) {
+                                isEnter = false;
+                                $this.removeClass(settings.class);
+                                settings.onExit(data);
+                            }
+                        }
+                    });
+                };
+
+            // exit
+            if (!settings.target.length) return;
+
+            // on mouse move
+            $(window).on('mousemove', function(e) {
+                magnetize(settings.target, e);
+            });
+        }
+
+        // init
+        magneticButton({
+            distance: 120,
+            onEnter: function(data) {
+                gsap.to(data.target, {
+                    scale: 1.2
+                });
+                // console.log(data);
+            },
+            onExit: function(data) {
+                gsap.to(data.target, {
+                    scale: 1
+                });
+                // console.log(data);
+            },
+            onUpdate: function(data) {
+                // console.log(data);
+            }
+        });
     </script>
 </body>
 

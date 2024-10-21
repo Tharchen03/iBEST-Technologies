@@ -263,7 +263,7 @@ nav.navbar.bootsnav ul.nav>li>a {
 }
 
 nav.navbar.bootsnav ul.nav>li>.contactC {
-    color: #1e92c0 !important;
+    color: white !important;
 }
 
 nav.navbar.bootsnav ul.nav>li>a {
@@ -345,7 +345,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 --------------------------------------*/
 .welcome-hero {
     position: relative;
-    background: url(../images/welcome-hero/net.png)no-repeat;
+    background: url(../images/welcome-hero/13.png)no-repeat;
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -1127,6 +1127,13 @@ nav.navbar.bootsnav .navbar-toggle i {
     width: 340px;
 }
 
+@media screen and (max-width:1200px) {
+    .single-blog-item {
+        height: 400px;
+        width: 370px !important;
+    }
+
+}
 
 .educare {
     background-image: url('../images/anouncement/educare.png');

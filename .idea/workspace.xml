@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="19cb54b2-a996-4a82-a4b2-2fc8ecc32f0b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/assets/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/assets/css/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/assets/css/test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/public/assets/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/public/assets/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/resources/views/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/resources/views/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/ui/resources/views/welcome.blade.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2i5mqD7uJ4B0LazsoUt316tOr1f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/ibest/Desktop/tharchen/LawWeb/iBEST-Technologies",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17890.14" />
+        <option value="bundled-python-sdk-5b207ade9991-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17890.14" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19cb54b2-a996-4a82-a4b2-2fc8ecc32f0b" name="Changes" comment="" />
+      <created>1718789007582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718789007582</updated>
+      <workItem from="1718789009272" duration="75000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
